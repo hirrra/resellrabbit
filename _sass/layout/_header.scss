@@ -38,8 +38,10 @@
 
 .header-brand {
     h1 {
-        font-size: 23px;
+        font-size: 25px;
         color: color(primary, 3);
+        @include font-family(title);
+        letter-spacing: 2px;
 
         a {
             text-decoration: none;
@@ -136,6 +138,12 @@
 
         display: flex;
     
+    }
+
+    .header-brand {
+        h1 {
+            font-size: 30px;
+        }
     }
 
     .navbar-toggler-label, .navbar-toggler-checkbox {
