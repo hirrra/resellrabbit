@@ -1,0 +1,36 @@
+.card {
+	display: block;
+	border-radius: 0.375rem;
+  box-shadow: 0 8px 16px rgba(color(typography, 1), .12);
+  mix-blend-mode: multiply;
+  margin-bottom: 30px;
+  width: 100%;
+
+  .card-title {
+    margin-bottom: 0.5rem;
+    color: #5f4dee;
+    font: 700 1.125rem/1.5rem "Open Sans", sans-serif;
+  }
+
+  .card-body {
+
+    .card-list {
+      margin-bottom: 30px;
+    }
+  }
+
+  .divider {
+    height: 1px;
+    margin-top: 1.75rem;
+    margin-bottom: 2rem;
+    border: none;
+    background-color: #ccd3df;
+  }
+}
+
+ul.no-bullets {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+

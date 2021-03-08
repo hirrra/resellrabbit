@@ -1,0 +1,105 @@
+.pricing-header {
+  margin-bottom: 70px;
+}
+
+
+.pricing-title {
+  span {
+    color: color(primary, 3);
+  }
+}
+
+.pricing {
+	padding-bottom: 2.25rem;
+	text-align: center;
+
+  .flex-container {
+    align-items: flex-end;
+  }
+
+  .card {
+    overflow: hidden;
+
+    .best-value {
+      padding: 6px 0;
+      margin: 0;
+      background: color(additional, 1);
+      color: color(typography, 1i);
+      font-weight: 200;
+    }
+
+    .list-item {
+      margin-bottom: 10px;
+    }
+
+  }
+
+  .card-body {
+    padding: 40px 30px 20px 30px;
+  }
+
+  // Middle COMPLETE pricing tier
+  .card:nth-of-type(2) {
+    box-shadow: 0 8px 16px rgba(color(typography, 1), .22);
+
+    .card-body {
+      padding-top: 40px;
+    }
+  }
+
+  .frequency {
+    font-size: 0.875rem;
+  }
+
+  .price {
+    .currency {
+      margin-right: 0.25rem;
+      color: color(typography, 1a);
+      font-weight: 700;
+      font-size: 1.5rem;
+      vertical-align: 40%;
+    }
+
+    .value {
+      color: color(typography, 1a);
+      font: 700 3.25rem/3.5rem "Open Sans", sans-serif;
+      text-align: center;
+    }
+  }
+
+  .card-title {
+    color: color(primary, 3);
+  }
+
+  .fas {
+    color: #5f4dee;
+    font-size: 0.875rem;
+    line-height: 1.625rem;
+  }
+
+  .fas.fa-times {
+    margin-left: 0.1875rem;
+    margin-right: 0.125rem;
+    color: #555;
+  }
+  
+}
+
+.pricing-submit {
+  max-width: 475px;
+  margin: 10px auto 20px auto;
+}
+
+
+@include media( '>medium' ) {
+
+  .pricing {
+
+    .card {
+      max-width: 250px;
+      margin-bottom: 60px;
+    }
+
+  }
+  
+}

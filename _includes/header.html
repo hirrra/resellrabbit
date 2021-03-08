@@ -1,0 +1,38 @@
+<header class="site-header">
+  <div class="container">
+      <div class="site-header-inner">
+        <div class="brand header-brand float-left">
+          <h1 class="m-0">
+            {% assign url = '/' %}
+            <a href="{{ url | relative_url }}">
+              {{ site.title }} <span class="header-brand-suffix"></span>       
+            </a>
+          </h1>
+        </div>
+
+        <!-- Mobile Menu Toggle Button -->
+        <label for="navbar-toggler-checkbox" class="navbar-toggler-label float-right">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        <input type="checkbox" class="navbar-toggler-checkbox" id="navbar-toggler-checkbox">
+
+        <nav class="main-nav text-right">
+          <ul class="navbar-nav ml-auto no-bullets">
+              <li class="nav-item">
+                  <a href="{{ '/pricing' | relative_url }}" class="nav-link pricing-link {% if page.title == 'pricing' %} selected {% endif %}">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a href="{{ '/signup' | relative_url }}" class="button button-primary button-shadow button-block button-sm">Sign up now</a>
+              </li>
+            </ul>
+        </nav>
+
+        <!-- <nav class="main-nav">
+          <a href="{{ '/pricing' | relative_url }}" class="nav-link pricing-link {% if page.title == 'pricing' %} selected {% endif %}">Pricing</a>
+          <a href="{{ '/signup' | relative_url }}" class="button button-primary button-shadow button-block button-sm">Sign up now</a>
+        </nav> -->
+      </div>
+  </div>
+</header>

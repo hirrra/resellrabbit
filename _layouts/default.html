@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<!-- Use 'has-animations' class for animate on load. -->
+<body class="is-boxed {% if page.layout != 'know' %} has-animations {% endif %}">
+    <div class="body-wrap {% if page.layout == 'know' %} know {% else %} home {% endif %}">
+
+        {% include header.html %}
+
+        <main>
+
+        {% if page.title == 'home' %}
+
+        {% include hero.html %}
+
+        {% include features.html %}
+
+        {% include bottomline.html %}
+
+        {% include newsletter.html %}
+
+        {% else %}
+
+        {{ page.content }}
+        
+        {% endif %}
+
+        </main>
+
+        {% include footer.html %}
+
+    </div>
+
+    <script src="https://wzrd.in/standalone/formdata-polyfill"></script>
+    <script src="https://wzrd.in/standalone/promise-polyfill@latest"></script>
+    <script src="https://wzrd.in/standalone/whatwg-fetch@latest"></script>
+    <script src="{{ 'src/js/form-submission.js' | relative_url }}"></script>
+    <script src="{{ 'src/js/main.js' | relative_url }}"></script>
+</body>
+</html>

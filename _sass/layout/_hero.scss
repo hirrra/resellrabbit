@@ -1,0 +1,139 @@
+.hero {
+    text-align: left;
+}
+
+.know .hero {
+    flex: 1 0 auto;
+}
+
+.hero-inner {
+    position: relative; /* To display all elements above the background color */
+}
+
+.hero-copy {
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.hero-illustration {
+
+    svg {
+        width: 100%;
+        height: 400px;
+        height: auto;
+        overflow: visible;
+    }
+}
+
+
+.hero-title {
+    @include font-weight(bold);
+    font-size: 2.6em;
+    line-height: 1.3em;
+}
+
+.hero-paragraph {
+    margin-bottom: 32px;
+}
+
+.hero-button {
+    margin-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    line-height: 6px;
+    font-size: 0.9em;
+  
+    .emoji {
+      margin-right: 10px;
+    }
+}
+
+.button-chapter {
+    background: color(additional, 4);
+    color: color(primary, 2)
+}
+
+.button-extra {
+    background: color(additional, 4);
+    color: color(primary, 2)
+}
+
+
+@include media( '>medium' ) {
+
+    .hero {
+        padding-bottom: 120px;
+    }
+
+    .hero-main {
+        max-width: 450px;
+    }
+
+    .hero-illustration {
+        margin-top: 100px;
+        padding: 20px 0 20px 20px;
+    }
+
+    .hero-paragraph {
+        margin-bottom: 40px;
+    }
+
+    .hero-illustration-browser {
+
+        svg {
+            width: 640px;
+        }
+    }
+
+    .hero-button {
+        margin-bottom: 25px;
+    }
+
+}
+
+@include media( '>large' ) {
+
+    .hero {
+        text-align: left;
+        padding-top: 50px;
+
+        &::before {
+            top: -80px; /* Header height */
+            left: 620px;
+            height: 100vh;
+            width: 100%;
+        }
+    }
+
+    .know .hero {
+        margin-bottom: -50px;
+        
+        .hero-inner  {
+            display: flex;
+        }
+        
+    }
+
+    .hero-copy {
+        padding-top: 60px;
+        padding-right: 88px;
+        min-width: 600px;
+    }
+
+    .hero-paragraph {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .hero-button {
+        width: 480px;
+    }
+
+    .hero-illustration {
+        margin-top: 0;
+    }
+
+    .hero-form {
+        margin: 0;
+    }
+}

@@ -1,0 +1,36 @@
+.newsletter {
+
+    text-align: left;
+
+    .section-inner {
+        padding-bottom: 64px;
+    }
+
+    .section-paragraph {
+        margin-bottom: 32px;
+    }
+}
+
+@include media( '>medium' ) {
+
+    .newsletter {
+        
+        text-align: center;
+
+
+        .section-inner {
+            padding-bottom: 80px;
+        }
+
+        .section-paragraph {
+            margin-bottom: 40px;
+            padding-left: 72px;
+            padding-right: 72px;
+        }
+    }
+
+    .newsletter-form {
+        max-width: 475px;
+        margin: 0 auto;
+    }
+}

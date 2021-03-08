@@ -1,0 +1,21 @@
+.content-navigation {
+  justify-content: space-between;
+  margin: 50px auto 50px auto;
+
+  .button {
+    width: 150px;
+  }
+
+}
+
+@include media( '>medium' ) {
+
+  .content-navigation {
+
+    .button {
+      width: 190px;
+    }
+
+  }
+}
+

@@ -1,0 +1,27 @@
+.posts {
+
+  .flex-container {
+    flex-direction: column;
+  }
+  
+  .button {
+    width: 300px;
+  }
+
+} 
+
+@include media( '>medium' ) {
+
+  .posts {
+
+    .flex-container {
+      flex-direction: row;
+      justify-content: space-evenly;
+
+      .button {
+        max-width: 330px;
+      }
+    }
+  
+  } 
+}
