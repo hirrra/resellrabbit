@@ -23,8 +23,8 @@ title-suffix:
 email: resellrabbit@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Valuable Chrome extension to increase Poshmark sales and automate outreach without you personally investing any more time.
-baseurl: "/resellrabbit" # the subpath of your site, e.g. /blog
-url: "https://hirrra.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://resellrabbit.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username:  
 
