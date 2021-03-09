@@ -41,7 +41,7 @@
         font-size: 25px;
         color: color(primary, 3);
         @include font-family(title);
-        letter-spacing: 2px;
+        letter-spacing: 1px;
 
         a {
             text-decoration: none;
