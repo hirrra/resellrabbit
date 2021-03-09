@@ -16,7 +16,7 @@
     position: relative; /* To display all elements above the background color */
     display: flex;
     flex-wrap: wrap;
-    padding-top: 90px;
+    padding-top: 40px;
     padding-bottom: 40px;
 }
 
@@ -103,6 +103,6 @@
 @include media( '<=large' ) {
 
     .footer-copyright {
-        color: color(typography, 1i);
+        color: color(typography, 3);
     }
 }

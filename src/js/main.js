@@ -12,7 +12,15 @@
     /* global ScrollReveal */
     const sr = window.sr = ScrollReveal()
 
-    sr.reveal('.hero-title, .hero-paragraph, .newsletter-header, .newsletter-form, .hero-form, .hero-illustration', {
+    // sr.reveal('.hero-title, .hero-paragraph, .newsletter-header, .newsletter-form, .hero-form, .hero-illustration', {
+    //   duration: 1000,
+    //   distance: '40px',
+    //   easing: 'cubic-bezier(0.5, -0.01, 0, 1.005)',
+    //   origin: 'bottom',
+    //   interval: 150
+    // })
+
+    sr.reveal('.newsletter-header, .newsletter-form', {
       duration: 1000,
       distance: '40px',
       easing: 'cubic-bezier(0.5, -0.01, 0, 1.005)',
