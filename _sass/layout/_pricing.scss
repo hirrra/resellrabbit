@@ -60,6 +60,12 @@
       vertical-align: 40%;
     }
 
+    .mini {
+      font-size: 1rem;
+      font-weight: 700;
+      color: color(typography, 1a);
+    }
+
     .value {
       color: color(typography, 1a);
       font: 700 3.25rem/3.5rem "Open Sans", sans-serif;
