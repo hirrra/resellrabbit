@@ -4,95 +4,43 @@ title: Signup Now
 permalink: /signup
 ---
 
-<section class="pricing">
-  <div class="container-sm">
-    <div class="pricing-header">
-      <!-- <h1 class="pricing-title h2-mobile is-revealing">7-Day <span>Guarantee</span></h1> -->
-      <!-- <p class="pricing-paragraph h2-mobile is-revealing">If you‘re not 100% satisfied, let us know in the first 7-days for a full refund</p> -->
-      <h1 class="pricing-title h2-mobile">Select a plan <span>fit for you</span></h1>
-      <p class="pricing-paragraph h2-mobile">Start closing more sales. Start for free.</p>
-    </div> 
-    <div class="flex-container">
-      <div class="card flex-item">
-        <div class="card-body">
-            <div class="card-title">BASIC</div>
-            <div class="price"><span class="currency">$</span><span class="value">Free</span></div>
-            <div class="frequency">forever</div>
-            <div class="divider"></div>
-            <ul class="card-list no-bullets">
-                <li class="list-item">
-                    <div class="list-item-body">Up to 100 Poshmark closet shares per day</div>
-                </li>
-            </ul>
-            <!-- <div class="control">
-                <a class="button button-primary button-block button-shadow" href="sign-up.html">SELECT</a>
-            </div> -->
-        </div>
-      </div>
+<section class="signup">
+  <div class="container-sm flex-container">
 
-      <div class="card flex-item">
-        <!-- <div class="label">
-          <p class="best-value">Best Value</p>
-        </div> -->
-        <div class="card-body">
-              <div class="card-title">COMPLETE</div>
-              <div class="price"><span class="currency">$</span><span class="value">29</span><span class="mini">.95</span></div>
-              <div class="frequency">monthly</div>
-              <div class="divider"></div>
-              <ul class="card-list no-bullets">
-                  <li class="list-item">
-                      <div class="list-item-body">Up to 1700 Poshmark closet shares per day</div>
-                  </li>
-              </ul>
-              <!-- <div class="control">
-                <a class="button button-primary button-block button-shadow" href="sign-up.html">SELECT</a>
-              </div> -->
-        </div>
-      </div> 
-
-      <div class="card flex-item">
-          <div class="card-body">
-              <div class="card-title">POWER USER</div>
-              <div class="price"><span class="currency">$</span><span class="value">59</span><span class="mini">.95</span></div>
-              <div class="frequency">monthly</div>
-              <div class="divider"></div>
-              <ul class="card-list no-bullets">
-                <li class="list-item">
-                    <div class="list-item-body">Unlimited Poshmark closet shares per day</div>
-                </li>
-            </ul>
-            <!-- <div class="control">
-                <a class="button button-primary button-block button-shadow" href="sign-up.html">SELECT</a>
-            </div> -->
-        </div> 
-      </div> 
+    <div class="flex-item signup-left">
+      <h3>
+        Get started with ResellRabbit
+      </h3>
+      <p>Start selling faster without investing any more of your personal time.</p>
     </div>
 
-    <p class="pricing-paragraph h2-mobile">Enter your email to be on the waitlist to receive an invite code</p>
-    <form class="pricing-submit text-left gform" name="submit-to-invites-signup">
-      <div class="field field-grouped ">
-        <div class="control control-expanded">
-            <input class="input" type="email" name="email" placeholder="Your best email&hellip;">
-        </div>
+    <div class="flex-item" id="signup-panel">
+      <div class="text-center">
+        <h4>Create a new account</h4>
+        <p id="signup-instructions" class="description">Please first sign up before proceeding</p>
+      </div>
+      <div class="modal">
         <div class="control">
-            <button type="submit" class="button button-primary button-block button-shadow">
-                <a class="" href="{{ '/pricing' | relative_url }}">Invite me</a>
-            </button>
+          <a class="button button-primary button-block button-shadow google-button" onclick="loginWithGoogle(/*isInCheckoutProcess*/ true);">Continue with Google</a>
         </div>
+        <p class="text-center description">OR</p>
+        <form class="signup-form" name="signup-form">
+          <div class="field">
+            <input class="input" type="name" name="name" placeholder="Name">
+          </div>
+          <div class="field">
+            <input class="input" type="email" name="email" placeholder="Email">
+          </div>
+          <div class="field">
+            <input class="input" type="password" name="password" placeholder="Password">
+          </div>
+          <div class="control">
+            <a type="submit" class="button button-primary button-block button-shadow" onclick="createUserWithEmailAndPassword()">Sign up
+            </a>
+          </div>
+        </form>
+        <p class="text-center description gray"><a href="/portal" class="gray">Already have an account?</a></p>
       </div>
-      <div class="checkbox-container">
-        <input name="optin" type="checkbox" class="checkbox" id="optin-pricing" value="feature-optin">
-        <label for="optin-pricing" class="checkbox-label">I'm interested in getting early access to new features <span class="emoji">🔓</span></label>
-        <div class="thankyou secret-field">
-          <b>Thanks, we'll get back to you soon! 😊</b>
-       </div>
-      </div>
-      <div class="secret-field">
-        <input type="checkbox" value="pricing" name="template" checked>
-      </div>
-      <div class="secret-field">
-          <input class="honeypot" type="text" name="honeypot" value="" />
-      </div>
-    </form>
+    </div>
   </div>
 </section>

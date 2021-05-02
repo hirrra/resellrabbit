@@ -252,7 +252,16 @@ label {
 	@include font-size(5, mobile, true, true);
 }
 
-p a {
+p a, .pink {
 	color: color(additional, 1);
 }
+
+.description, .description a {
+	font-size: 0.8rem;
+}
+
+.gray {
+	color: color(typography, 2);
+}
+
 

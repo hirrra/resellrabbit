@@ -20,13 +20,22 @@
 
         <nav class="main-nav text-right">
           <ul class="navbar-nav ml-auto no-bullets">
+            {% if page.title == "upgrade" %}
               <li class="nav-item">
-                  <a href="{{ '/pricing' | relative_url }}" class="nav-link pricing-link {% if page.title == 'pricing' %} selected {% endif %}">Pricing</a>
+                <a href="" class="nav-link pricing-link" onclick="logout();">Logout</a>
+              </li>
+            {% else %}
+              <li class="nav-item">
+                  <a href="{{ '/pricing' | relative_url }}" class="nav-link pricing-link {% if page.title == 'pricing' %} selected {% endif %}">Plans</a>
               </li>
               <li class="nav-item">
-                <a href="{{ '/signup' | relative_url }}" class="button button-primary button-shadow button-block button-sm">Sign up now</a>
+                <a href="{{ '/portal' | relative_url }}" class="nav-link pricing-link {% if page.title == 'portal' %} selected {% endif %}">User Portal</a>
               </li>
-            </ul>
+              <li class="nav-item">
+                <a href="{{ '/pricing' | relative_url }}" class="button button-primary button-shadow button-block button-sm">Try now</a>
+              </li>
+            {% endif %}
+          </ul>
         </nav>
 
         <!-- <nav class="main-nav">

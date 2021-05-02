@@ -58,6 +58,14 @@
     }
 }
 
+.field {
+    margin-bottom: 15px;
+}
+
+.control {
+    margin-bottom: 20px;
+}
+
 .textarea {
     display: block;
     min-width: 100%;
@@ -174,5 +182,10 @@
 
     .thankyou {
         top: 30px;
+    }
+
+    .modal {
+        width: 400px;
+        margin: 0 auto;
     }
 }

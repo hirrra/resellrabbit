@@ -93,13 +93,13 @@
     &.button-shadow {
 
         &::before {
-            box-shadow: 0 8px 16px rgba(color(additional, 1), .25);
+            box-shadow: 0 8px 16px rgba(color(typography, 3), .25);
         }
 
         &:hover {
 
             &::before {
-                box-shadow: 0 8px 16px rgba(color(additional, 1), .4);
+                box-shadow: 0 8px 16px rgba(color(typography, 3), .4);
             }
         }
     }
@@ -149,6 +149,16 @@
 
 .button-block {
     display: flex;
+}
+
+.google-button {
+    background: color(additional, 6);
+    background: linear-gradient(65deg, color(additional, 6) 0, color(additional, 7) 100%);
+
+    &:hover {
+        background: lighten(mix(color(additional, 6), color(additional, 7)), 1%);
+        background: linear-gradient(65deg, lighten(color(additional, 6), 1%) 0, lighten(color(additional, 7), 1%) 100%);
+    }
 }
 
 // .button-onclick {

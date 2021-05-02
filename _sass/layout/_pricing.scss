@@ -14,11 +14,19 @@
 	text-align: center;
 
   .flex-container {
+    justify-content: center;
     align-items: flex-end;
   }
 
   .card {
     overflow: hidden;
+    height: fit-content;
+
+    &:first-of-type {
+      .frequency {
+        margin-bottom: 60px;
+      }
+    }
 
     .best-value {
       padding: 6px 0;
@@ -35,16 +43,7 @@
   }
 
   .card-body {
-    padding: 40px 30px 20px 30px;
-  }
-
-  // Middle COMPLETE pricing tier
-  .card:nth-of-type(2) {
-    box-shadow: 0 8px 16px rgba(color(typography, 1), .22);
-
-    .card-body {
-      padding-top: 40px;
-    }
+    padding: 40px 20px 20px 20px;
   }
 
   .frequency {
@@ -102,8 +101,14 @@
   .pricing {
 
     .card {
-      max-width: 250px;
+      max-width: 320px;
       margin-bottom: 60px;
+      margin-left: 40px;
+    }
+
+    // Middle COMPLETE pricing tier
+    .card:nth-of-type(1) {
+      margin-left: 0;
     }
 
   }

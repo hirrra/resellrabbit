@@ -1,0 +1,45 @@
+---
+layout: default
+title: portal
+permalink: /portal
+---
+
+<section class="login">
+
+  <div class="container-sm flex-container">
+    <div class="flex-item login-left">
+      <h3>User Portal</h3>
+      <p>Login and proceed to...</p>
+      <ul>
+        <li>Update subscription plans</li>
+        <li>Update payment methods</li>
+        <li>View invoice history</li>
+      </ul>
+    </div>
+    <div class="flex-item" id="login-panel">
+      <h4 class="text-center">Login to user portal</h4>
+      <p class="mb-24 description text-center">Login to manage subscription and billing details</p>
+      <div class="modal">
+        <div class="control">
+          <a class="button button-primary button-block button-shadow google-button" onclick="loginWithGoogle();">Continue with Google</a>
+        </div>
+        <p class="text-center description">OR</p>
+        <form class="login" name="login-form">
+          <div class="field">
+            <div class="field">
+              <input class="input" type="email" name="email" placeholder="Email">
+            </div>
+            <div class="field">
+              <input class="input" type="password" name="password" placeholder="Password">
+            </div>
+            <div class="control">
+              <a class="button button-primary button-block button-shadow" onclick="loginWithEmailAndPassword()">Continue</a>
+          </div>
+          </div>
+        </form>
+        <p class="text-center description gray"><a href="/forgotpassword" class="gray">Can't login?</a> &#183; <a href="/signup" class="gray">Don't have an account?</a></p>
+      </div>
+    </div>
+  </div>
+
+</section>
