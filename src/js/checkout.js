@@ -72,7 +72,6 @@ function loginWithEmailAndPassword () {
 async function loginWithGoogle (isInCheckoutProcess = false) {
   const provider = new firebase.auth.GoogleAuthProvider();
   firebase.auth().signInWithPopup(provider).then(() => {
-    console.log('Successfully signed in.');
     if (isInCheckoutProcess) {
       // Redirect to Stripe checkout.
       document.getElementById('signup-panel').innerHTML = this.getRedirectMsg();
@@ -82,9 +81,8 @@ async function loginWithGoogle (isInCheckoutProcess = false) {
       this.redirectToCustomerPortal();
     }
   }).catch((err) => {
-    console.log('Error with signing in.');
-    console.log(err);
-    alert('Error with signing in. Please contact me at resellrabbit@gmail.com and I help as soon as I can.');
+    const msg = 'Error with signing in. Please contact me at resellrabbit@gmail.com and I help as soon as I can.';
+    alert(`${msg}\n${err}`);
   });
 }
 
@@ -97,9 +95,9 @@ function sendPasswordResetEmail () {
     // Email sent. Redirect to login page.
     alert('Email sent! Keep an eye out on your inbox.');
     window.location.href = '/login';
-  }).catch(function(error) {
+  }).catch(function (error) {
     // An error happened.
-    alert(`${error.message}. If more information is needed, please contact me at resellrabbit@gmail.com.`);
+    alert(`${error.message}\nIf more information is needed, please contact me at resellrabbit@gmail.com.`);
   });
 }
 
@@ -115,16 +113,14 @@ async function getUser () {
 
 function logout () {
   firebase.auth().signOut().then(() => {
-    console.log('Successfully logged out'); // Sign-out successful.
+    // Sign-out successful.
     window.location.href = '/';
   }).catch((err) => {
-    console.log(err);
-    alert('Error with logging out.');
+    alert(`Error with logging out.\n${err}`);
   });
 }
 
 async function initStripe (createdUser = null) {
-  console.log('init stripe');
   const urlParams = new URLSearchParams(window.location.search);
   let plan = stripeVars.priceIdMonthly;
   if (urlParams.get('plan') === 'yearly') {
@@ -135,8 +131,6 @@ async function initStripe (createdUser = null) {
   if (!user) {
     user = await this.getUser();
   }
-  console.log(user.uid);
-  console.log("trying to log in");
   const docRef = await db
     .collection('customers')
     .doc(user.uid)
@@ -148,21 +142,18 @@ async function initStripe (createdUser = null) {
       cancel_url: CANCEL_URL
     });
   docRef.onSnapshot(async (snap) => {
-    console.log("how many times? ");
     const { error, sessionId } = snap.data();
-    console.log('sessionid: ' + sessionId);
     if (sessionId) {
       const stripe = Stripe(stripeVars.publishableKey);
       stripe.redirectToCheckout({ sessionId: sessionId, customerEmail: user.customerEmail });
     }
     if (error) {
-      console.log(error);
+      alert(`${error}`);
     }
   });
 }
 
 async function redirectToCustomerPortal () {
-  console.log('attempting to redirect to portal');
   const functionRef = firebase
     .app()
     .functions('us-east4')
