@@ -1,0 +1,20 @@
+
+<div class="postbox flex-item">
+  <div class="maxthumb">
+    <a href="{{ post.url }}">
+        <div class="postbox-body">
+          <h3 class="postbox-title text-center">
+            {{ post.title }}
+          </h3>
+          <div class="description meta-duration">
+            {{ post.duration }} min read
+          </div>
+        </div>
+        {% if post.image %}
+  
+            <img class="img-fluid" src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %}" alt="{{ post.title }}"> 
+  
+        {% endif %}
+    </a>
+  </div>
+</div>

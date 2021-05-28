@@ -30,7 +30,16 @@ $color: (
 		3: #FFFFFF,
 		4: #fbfbfb,
 		5: #d6d6d6
-	 )
+	 ),
+	main: (
+		light-pink: #faf1f4,
+		coral-pink: #ffaaab,
+		pink: #ff7b87,
+		hot-pink: #ff5e6c,
+		auburn: #9c6060,
+		white: #fff,
+		light-gray: #EFEFEF
+	)
 );
 
 // --------------------------------------------
@@ -95,3 +104,4 @@ $content__padding: (
 );
 $container__width: 1080px;
 $container__width-sm: 800px;
+$container__width-thin: 600px;

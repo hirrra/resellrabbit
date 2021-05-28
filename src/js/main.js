@@ -20,7 +20,7 @@
     //   interval: 150
     // })
 
-    sr.reveal('.newsletter-header, .newsletter-form', {
+    sr.reveal('.newsletter-header, .newsletter-form, .postbox-group-header, .postbox-group, .browse-all-guides', {
       duration: 1000,
       distance: '40px',
       easing: 'cubic-bezier(0.5, -0.01, 0, 1.005)',

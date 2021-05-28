@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<!-- Use 'has-animations' class for animate on load. -->
+<body class="is-boxed has-animations">
+    <div class="body-wrap">
+
+        {% include header.html %}
+        
+        <main class="page-container mb-56">
+        
+          <header class="post-header">
+            <div class="post-banner mb-16">
+              {% if page.image %}
+              <div class="container-sm">
+                <div class="header-body">
+                  <h1 class="header-title mb-0">
+                    {{ page.title }}
+                  </h1>
+                  <h4 class="header-description mt-8">
+                    {{ page.description }}
+                  </h4>
+                </div>
+              </div>
+              <img class="img-fluid" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}" alt="{{ page.title }}"> 
+              {% else %}
+              <h1>{{ page.title }}</h1>
+              {% endif %}
+            </div>
+            <div class="container-sm flex-container">
+              <span class="meta description meta-duration flex-item">
+                <span class="emoji">📖</span> {{ page.duration }} min read</span>
+              <span class="meta description meta-description">
+                <span class="emoji">👚</span> <a href="https://www.facebook.com/groups/801029790774238/"> Join our Poshmark Resellers Facebook support group</a></span>
+            </div>
+          </header>
+          
+          <div class="container-sm mt-24">
+            <div class="post-content">
+              {{ content }}
+            </div>
+
+            <div class="mt-56 posts-related has-top-divider">
+              <h2 class="text-center postbox-group-header mt-24 is-revealing">More Reselling Guides</h2>
+              <div class="postbox-group flex-container is-revealing">
+                
+                {% assign posts = site.posts | where_exp:"post", "post.url != page.url" | sample:4 %}
+                {% for post in posts %}
+                  {% include postbox.html %}
+                {% endfor %}
+                
+              </div>
+              <div class="text-center mt-24 browse-all-guides is-revealing">
+                <a class="button button-shadow button-secondary" href="{{ '/guides' | relative_url }}">
+                  <span class="emoji">🧠</span>&nbsp; Browse all guides
+                </a>
+              </div>
+            </div>
+          </div>
+          
+        </main>
+
+
+        {% include newsletter.html %}
+
+        {% include footer.html %}
+
+    </div>
+
+    <script src="{{ 'src/js/main.js' | relative_url }}"></script>
+    <script src="{{ 'src/js/form-submission.js' | relative_url }}"></script>
+</body>
+</html>

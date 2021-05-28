@@ -81,6 +81,22 @@
     transition: background .15s ease;
 }
 
+.button-secondary {
+    color: color(main, white) !important;
+    background: color(main, auburn);
+    transition: background .15s ease;
+
+    &:hover {
+        color: color(main, white);
+        background: darken(mix(color(main, auburn), color(main, auburn)), 10%);
+    }
+}
+
+.button-three {
+    color: color(main, pink) !important;
+    background: color(main, white);
+}
+
 .button-primary {
     background: mix(color(additional, 1), color(additional, 2));
     background: linear-gradient(65deg, color(additional, 1) 0, color(additional, 2) 100%);
