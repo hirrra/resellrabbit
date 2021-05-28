@@ -3,6 +3,7 @@ layout: post
 title:  "Welcome"
 image: src/img/1.jpg
 duration: 3
+published: false
 ---
 
 ##Welcome

@@ -4,6 +4,7 @@ title: 21 Secrets to Success on Poshmark
 description: Secrets on how to increase sales and become a top seller on Poshmark.
 image: src/img/1.jpg
 duration: 11
+published: false
 ---
 
 + Take good photos
