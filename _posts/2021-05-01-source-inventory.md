@@ -22,7 +22,7 @@ Let's start!
 
 ##### Section 1
 {: class="section-header"}
-## Sourcing basics  
+## 📚 Sourcing basics  
 
 ### What is sourcing inventory?
 
@@ -44,7 +44,7 @@ Luxury brands are worthwhile, for example a Madewell shoulder bag that's bought 
 
 ##### Section 2
 {: class="section-header"}
-## Find sources of inventory
+## 👖 Find sources of inventory
 
 ### How do I find low priced goods?
 
@@ -104,7 +104,7 @@ Sometimes it's worthwhile to pay someone else to thrift for you. It may be a bit
 
 ##### Section 3
 {: class="section-header"}
-## Do market research
+## 👩🏾‍💻 Do market research
 
 ### Research what brands are in demand
 
@@ -138,7 +138,7 @@ This way you can see the most recent sales related to your item and decide if it
 
 ##### Section 4
 {: class="section-header"}
-## Be selective
+## 🙅🏼‍♀️ Be selective
 
 ### Keep in mind what your bottom line would be
 
@@ -173,7 +173,7 @@ Another thing to mention is you can sell a certain style of clothing to build a 
 Even if an item is popular, if you don't like it then it's less likely to sell. Logically this doesn't make sense. But practically, if you don't like an item then you likely aren't going to want to spend as much time prepping it, listing it, and marketing it as much as the other items you do like. 
 
 
-## Bonus tip
+## 💡 Bonus tip
 ### Avoid the death pile
 
 If you have a huge pile that hasn't been listed yet and you're looking to bring in more inventory, it's time to pause. It may seem really obvious but can still be a struggle to take a break when there are so many great sales and deals going on. But you have to prioritize listing the rest of your inventory first.
