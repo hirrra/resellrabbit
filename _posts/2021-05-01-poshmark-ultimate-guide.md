@@ -10,9 +10,11 @@ Poshmark is a great platform to start on if you're looking to clean out your clo
 
 <!-- **Author's Note:** There is literally *so* much to talk about that I've included links under each section for more in-depth explanations. I suggest reading through this guide first and then reading the other guides afterward to learn more. -->
 
+
 ## Brief history of Poshmark
 
 Poshmark used to just be women's fashion but now there are categories for kids, mens, and even school supplies. However I'd still say that Poshmark really is mainly a fashion selling app. 
+
 
 ##### Chapter 1
 {: class="chapter-header"}
@@ -22,7 +24,8 @@ If you're a casual seller, you likely will just sell what you want to clear out 
 
 However, if you plan make consistent money off of reselling on Poshmark, you'll need to source your items from different places. Do your research on what is currently trendy and be picky with which brands and items you pick up.
 
-**[Read about How to source inventory for Poshmark]({% post_url 2021-05-01-source-inventory %})**
+**[How to source inventory for Poshmark &nbsp; &#10145;]({% post_url 2021-05-01-source-inventory %})**
+{: class="guide-link"}
 
 ## Author's note
 ***🚧  The rest of this guide is under construction. Subscribe to our newsletter at the bottom of the page or bookmark this site and come back to finish the rest of the guide!***

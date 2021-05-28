@@ -58,6 +58,7 @@ kramdown:
   syntax_highlighter_opts:
     block:
       line_numbers: true
+  toc_levels: "2" 
 
 saas:
   style: compressed

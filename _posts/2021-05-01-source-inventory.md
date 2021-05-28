@@ -4,6 +4,7 @@ title:  How to Source Inventory for Poshmark
 description: How to efficiently select clothing that will sell fast on Poshmark
 image: src/img/1.jpg
 duration: 9
+toc: true
 ---
 
 If you're serious about reselling, you have to learn how to pick the right clothing to sell. Items that are in higher demand will sell faster, which means you'll get your chunk of change faster, and then reinvest that back into your business faster (💰💰💰).
@@ -12,10 +13,15 @@ All this advice could be used for any reselling platform (Mercari, Depop, Ebay, 
 
 Let's start!
 
-***This is Chapter 1  of the [Poshmark Ultimate Reselling Guide]({% post_url 2021-05-01-poshmark-ultimate-guide %}).***
 
-##### Chapter 1
-{: class="chapter-header"}
+***This is Chapter 1  of the [Poshmark Ultimate Reselling Guide]( {{base_url}}/guides/poshmark-ultimate-guide ).***
+
+### Sections
+1. seed
+{:toc}
+
+##### Section 1
+{: class="section-header"}
 ## Sourcing basics  
 
 ### What is sourcing inventory?
@@ -36,8 +42,8 @@ Try to get cost of goods as low as possible. A good guideline is $2 per piece on
 
 Luxury brands are worthwhile, for example a Madewell shoulder bag that's bought for $10 and sold for $40. 
 
-##### Chapter 2
-{: class="chapter-header"}
+##### Section 2
+{: class="section-header"}
 ## Find sources of inventory
 
 ### How do I find low priced goods?
@@ -96,8 +102,8 @@ A mystery box are sold at a certain price with a number of items inside the box.
 
 Sometimes it's worthwhile to pay someone else to thrift for you. It may be a bit difficult to find someone you trust but I suggest just reaching out to someone whose style you like, ask if they're open to helping you source for payment, and then try a test run with a small budget.
 
-##### Chapter 3
-{: class="chapter-header"}
+##### Section 3
+{: class="section-header"}
 ## Do market research
 
 ### Research what brands are in demand
@@ -130,9 +136,8 @@ This way you can see the most recent sales related to your item and decide if it
 {% include cta.html %}
 
 
-
-##### Chapter 4
-{: class="chapter-header"}
+##### Section 4
+{: class="section-header"}
 ## Be selective
 
 ### Keep in mind what your bottom line would be
@@ -168,7 +173,7 @@ Another thing to mention is you can sell a certain style of clothing to build a 
 Even if an item is popular, if you don't like it then it's less likely to sell. Logically this doesn't make sense. But practically, if you don't like an item then you likely aren't going to want to spend as much time prepping it, listing it, and marketing it as much as the other items you do like. 
 
 
-## Extra tip
+## Bonus tip
 ### Avoid the death pile
 
 If you have a huge pile that hasn't been listed yet and you're looking to bring in more inventory, it's time to pause. It may seem really obvious but can still be a struggle to take a break when there are so many great sales and deals going on. But you have to prioritize listing the rest of your inventory first.
