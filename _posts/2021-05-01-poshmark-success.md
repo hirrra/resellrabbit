@@ -4,6 +4,7 @@ title:  "Poshmark Success: Sales Strategies You Should Know"
 description: Poshmark strategies to sell faster
 image: src/img/1.jpg
 duration: 4
+published: false
 ---
 
 After you've selected high quality items to sell, listed them with clear photos and key words, you may think you're done. But the magic really happens with outreach. I can confidently guarantee that if you follow these strategies I outline below, you _will sell faster_.

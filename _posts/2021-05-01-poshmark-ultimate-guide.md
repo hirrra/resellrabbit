@@ -24,7 +24,7 @@ If you're a casual seller, you likely will just sell what you want to clear out 
 
 However, if you plan make consistent money off of reselling on Poshmark, you'll need to source your items from different places. Do your research on what is currently trendy and be picky with which brands and items you pick up.
 
-**[How to source inventory for Poshmark &nbsp; &#10145;]({% post_url 2021-05-01-source-inventory %})**
+**[How to source inventory for Poshmark &nbsp; &#10145;]( {{base_url}}/guides/source-inventory )**
 {: class="guide-link"}
 
 ##### Chapter 2
@@ -33,7 +33,7 @@ However, if you plan make consistent money off of reselling on Poshmark, you'll 
 
 Sellers are getting better at listing up attracting postings for their items. If you're trying to get into the reselling game, definitely learn exactly how to make a good listing that will show up on Poshmark search results and catch your potential buyer's attention.
 
-**[Step by step guide to posting Poshmark listings that sell &nbsp; &#10145;]({% post_url 2021-05-01-source-inventory %})**
+**[Step by step guide to posting Poshmark listings that sell &nbsp; &#10145;]( {{base_url}}/guides/list-on-poshmark )**
 {: class="guide-link"}
 
 
