@@ -150,7 +150,8 @@ Fabric:
 Size: 
 Condition: [New, Like New, Good, Preowned]
 Brand:
-This item is available for immediate purchase until is marked "sold" or "not for sale." While I am grateful for the interest I do not trade our items and will politely bypass those inquiries, thank you!
+Comes from a smoke-free home.
+No trades please, thanks!
 </pre>
 
 **Quick tip:** It's faster to list batches of items using the computer, while it's more convenient to list a couple items on the phone.

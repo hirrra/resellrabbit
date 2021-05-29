@@ -18,7 +18,7 @@ After you've selected high quality items to sell, listed them with clear photos 
 
 ##### Section 1
 {: class="section-header"}
-## Share, share, share
+## 🔁 Share, share, share
 
 ### What is sharing and why is it worth talking about?
 
