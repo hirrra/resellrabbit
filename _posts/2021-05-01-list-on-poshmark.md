@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  How to Post Poshmark Listings that will Sell
+title:  Step by Step Guide to Posting Poshmark Listings that Sell
 description: How to make a listing on Poshmark that will catch a buyer's attention.
 image: src/img/1.jpg
 duration: 9

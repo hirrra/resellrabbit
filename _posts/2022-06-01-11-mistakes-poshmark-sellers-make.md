@@ -63,3 +63,39 @@ _Feel that I missed something? [Ping me on Twitter](https://twitter.com/resellra
 
 
 
+
+Reselling full-time is a job that comes with a lot of freedom. But it also comes with a lot of responsibilities and a fair amount of discipline.
+
+## Manage your cash flow
+
+The time it takes between purchasing an item and when it sells could sometimes take months and even years. If you are dependent on that income to pay bills or employees, then you need to manage your cash flow properly to make sure you have enough income in time. 
+
+
+## Systematize your selling process
+
+Your job as a reseller can be broken down into regular tasks like sourcing and taking photos. It can also be broken down into irregular tasks like returns, stain treatment, and repairs. It's  important to systematize both types of tasks and have a solid step by step process for each task that you can repeat on any item.
+
+The benefit of this is you can properly figure out how much time is needed to do each task. This is especially helpful if you need to project where you'll be financially in the future, or if you want to delegate tasks to other people.
+
+If you've created systems that allow you to have consistent and reliable results and then build a history of data with it, then you can make somewhat reliable financial trajectories for your business.
+
+t makes sense because the Poshmark algorithm heavily favors resellers who share their own closet often, and a lot of resellers have better things to do than to click buttons all day. 
+
+ But it's very important to talk about because automating your tasks
+
+
+
+
+
+
+
+
+
+
+ Poshmark created the sharing system in order
+ 
+ really favors sellers who share frequently because they 
+
+ ## Reselling is truly a business
+
+In the end, your business's viability is about the numbers that come out of it. Essentially it comes down to "If we pay ___ in labor and list ____ items, we can reasonably expect to make ____ each month." 
