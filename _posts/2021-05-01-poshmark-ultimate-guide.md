@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Poshmark Ultimate Guide to Reselling (2021)
-description: How to succeed at selling on Poshmark.
+description: How to succeed at selling on Poshmark
 image: src/img/2.jpg
 duration: 4
 ---
@@ -33,7 +33,7 @@ However, if you plan make consistent money off of reselling on Poshmark, you'll 
 
 Sellers are getting better at listing up attracting postings for their items. If you're trying to get into the reselling game, definitely learn exactly how to make a good listing that will show up on Poshmark search results and catch your potential buyer's attention.
 
-**[How to post Poshmark listings that will sell &nbsp; &#10145;]({% post_url 2021-05-01-source-inventory %})**
+**[Step by step guide to posting Poshmark listings that sell &nbsp; &#10145;]({% post_url 2021-05-01-source-inventory %})**
 {: class="guide-link"}
 
 

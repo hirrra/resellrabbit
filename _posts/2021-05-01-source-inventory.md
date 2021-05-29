@@ -92,7 +92,7 @@ If someone is quitting reselling or taking a break from it, a lot of times they 
 
 #### Liquidation sites
 
-If you Google "liquidation," you'll find a bunch of companies that sell clothes wholesale. An example website is [liquidation.com](https://www.liquidation.com/index). How it works is you can bid on boxes of returned items to stores for cheap. The price of a box can be around $100 and around $40 in shipping. Sometimes the items will be a hit or miss but you can definitely make a profit.
+If you Google "liquidation," you'll find a bunch of companies that sell clothes wholesale. An example website is [liquidation.com](https://www.liquidation.com/index){:target="_blank"}. How it works is you can bid on boxes of returned items to stores for cheap. The price of a box can be around $100 and around $40 in shipping. Sometimes the items will be a hit or miss but you can definitely make a profit.
 
 #### Mystery boxes from other resellers
 
@@ -164,7 +164,7 @@ Sometimes you might see the damage and think you can repair it yourself. Well...
 
 Apparel that's really in season or designer is what you want to focus on. What I like to do is to go in the app, look up a brand or category, and then change the filter to Just In and Sold so you can quickly see what has recently sold in that category. This means you can also search for items more closely to what you own and get a better feel for how much you should price them. 
 
-Poshmark also releases official trend reports on [their blog](https://blog.poshmark.com/category/the-trend-report/), where you can see which brands and categories are popular that season. 
+Poshmark also releases official trend reports on [their blog](https://blog.poshmark.com/category/the-trend-report/){:target="_blank"}, where you can see which brands and categories are popular that season. 
 
 Another thing to mention is you can sell a certain style of clothing to build a consistent brand. Imagine a boho chic closet.
 
