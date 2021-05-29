@@ -3,7 +3,7 @@ layout: post
 title:  How to Source Inventory for Poshmark
 description: How to efficiently select clothing that will sell fast on Poshmark
 image: src/img/1.jpg
-duration: 9
+duration: 10
 toc: true
 ---
 
@@ -14,7 +14,7 @@ All this advice could be used for any reselling platform (Mercari, Depop, Ebay, 
 Let's start!
 
 
-***This is Chapter 1  of the [Poshmark Ultimate Reselling Guide]( {{base_url}}/guides/poshmark-ultimate-guide ).***
+***This is Chapter 1  of the [Poshmark Ultimate Guide to Reselling]( {{base_url}}/guides/poshmark-ultimate-guide ).***
 
 ### Sections
 1. seed
@@ -114,7 +114,7 @@ When thrifting, try to consciously take note of the brand's clothing quality. Af
 
 ### You can't rely only on brand
 
-I know, this sounds contradictory to my last point. What I mean by this is even though you find an item with a high brand name recognition, it doesn't mean that people will want to buy that category of item or style. For example, a J Crew jumpersuit will likely sell faster and at a higher price than a pair of J Crew flats. You need to take into consideration if the certain style of the item is on-trend or if it's too dated.
+I know, this sounds contradictory to my last point. What I mean by this is even though you find an item with a high brand name recognition, it doesn't mean that people will want to buy that category of item or style. For example, a J. Crew jumpersuit will likely sell faster and at a higher price than a pair of J. Crew flats. You need to take into consideration if the certain style of the item is on-trend or if it's too dated.
 
 ### Yet sometimes things that are in style will sell fast regardless of brand
 
@@ -133,7 +133,7 @@ If you're unsure how much an item would sell online, it's worthwhile to search u
 This way you can see the most recent sales related to your item and decide if it's worth buying and reselling the item.
 
 
-{% include cta.html %}
+{% include cta.html content="<b><i>Psst,</i></b> I made a tool that helps Poshmark sellers make more sales without spending more of their personal time" %}
 
 
 ##### Section 4
@@ -179,7 +179,9 @@ Even if an item is popular, if you don't like it then it's less likely to sell. 
 If you have a huge pile that hasn't been listed yet and you're looking to bring in more inventory, it's time to pause. It may seem really obvious but can still be a struggle to take a break when there are so many great sales and deals going on. But you have to prioritize listing the rest of your inventory first.
 
 
-This is my in-depth explanation on how to source your goods for reselling. If you want to learn more about the what to do after you source your inventory, read chapter two of [Poshmark Ultimate Reselling Guide]({% post_url 2021-05-01-poshmark-ultimate-guide %}).
+### What's next?
+
+This is my in-depth explanation on how to source your goods for reselling. If you want to learn more about the what to do after you source your inventory, read chapter two of [Poshmark Ultimate Guide to Reselling]( {{base_url}}/guides/poshmark-ultimate-guide ).
 
 
 _Feel that I missed something? [Ping me on Twitter](https://twitter.com/resellrabbit?lang=en)._

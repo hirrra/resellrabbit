@@ -17,7 +17,7 @@ Poshmark used to just be women's fashion but now there are categories for kids, 
 
 
 ##### Chapter 1
-{: class="chapter-header"}
+{: class="section-header"}
 ## Source the inventory to sell
 
 If you're a casual seller, you likely will just sell what you want to clear out from your closet. Be honest with what items you actually enjoy wearing versus are only keeping for fear of separation.
@@ -27,11 +27,19 @@ However, if you plan make consistent money off of reselling on Poshmark, you'll 
 **[How to source inventory for Poshmark &nbsp; &#10145;]({% post_url 2021-05-01-source-inventory %})**
 {: class="guide-link"}
 
+##### Chapter 2
+{: class="section-header"}
+## Learn how to market your pieces
+
+Sellers are getting better at listing up attracting postings for their items. If you're trying to get into the reselling game, definitely learn exactly how to make a good listing that will show up on Poshmark search results and catch your potential buyer's attention.
+
+**[How to post Poshmark listings that will sell &nbsp; &#10145;]({% post_url 2021-05-01-source-inventory %})**
+{: class="guide-link"}
+
+
 ## Author's note
 ***🚧  The rest of this guide is under construction. Subscribe to our newsletter at the bottom of the page or bookmark this site and come back to finish the rest of the guide!***
 
 Chapters to expect:
-+  Learn how to market your pieces 
-+  How to price an item
 +  Sales strategies
 +  Shipping advice
