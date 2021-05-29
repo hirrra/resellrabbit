@@ -78,9 +78,9 @@ However, these can be pricey and in this case natural lighting is the way to go.
 
 ### Post-editing
 
-To enhance your photos, you can use a free photo editing app like [Lightroom](https://lightroom.adobe.com/) or [VSCO](https://vsco.co/). You import your photos from your phone onto the computer (or stick to the phone app) and then use the app to edit the contrast, saturation, color tint, and shadows. These photos settings are saved as presets, where you can apply to all your other photos in one click. 
+To enhance your photos, you can use a free photo editing app like [Lightroom](https://lightroom.adobe.com/){:target="_blank"} or [VSCO](https://vsco.co/){:target="_blank"}. You import your photos from your phone onto the computer (or stick to the phone app) and then use the app to edit the contrast, saturation, color tint, and shadows. These photos settings are saved as presets, where you can apply to all your other photos in one click. 
 
-There are also tools that remove the background from the product you're photographing like [remove.bg](https://www.remove.bg/?utm_source=share&utm_medium=ios_app), [PhotoRoom](https://photoroom.com/), and [Canva](https://www.canva.com/).
+There are also tools that remove the background from the product you're photographing like [remove.bg](https://www.remove.bg/?utm_source=share&utm_medium=ios_app){:target="_blank"}, [PhotoRoom](https://photoroom.com/){:target="_blank"}, and [Canva](https://www.canva.com/){:target="_blank"}.
 
 Do keep your photos accurate so your buyers aren't surprised if they expect a different color. Avoid any photo filters that have a colored tint or vignette.
 
@@ -170,8 +170,6 @@ What I would do is set time at least once a week to list your new inventory.
 
 Over time, you'll get better and better at making great listings. The first step is to just do it and try the tactics that would make _you_ want to buy the item. If you want to learn important Poshmark sales strategies to follow after listing your item, read chapter three of [Poshmark Ultimate Guide to Reselling]( {{base_url}}/guides/poshmark-ultimate-guide ).
 
-
-_Feel that I missed something? [Ping me on Twitter](https://twitter.com/resellrabbit?lang=en)._
 
 
 

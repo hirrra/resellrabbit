@@ -184,5 +184,5 @@ If you have a huge pile that hasn't been listed yet and you're looking to bring 
 This is my in-depth explanation on how to source your goods for reselling. If you want to learn more about the what to do after you source your inventory, read chapter two of [Poshmark Ultimate Guide to Reselling]( {{base_url}}/guides/poshmark-ultimate-guide ).
 
 
-_Feel that I missed something? [Ping me on Twitter](https://twitter.com/resellrabbit?lang=en)._
+
 
