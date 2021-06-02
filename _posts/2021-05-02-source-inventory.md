@@ -179,7 +179,7 @@ Even if an item is popular, if you don't like it then it's less likely to sell. 
 If you have a huge pile that hasn't been listed yet and you're looking to bring in more inventory, it's time to pause. It may seem really obvious but can still be a struggle to take a break when there are so many great sales and deals going on. But you have to prioritize listing the rest of your inventory first.
 
 
-### What's next?
+### Looking for more?
 
 This is my in-depth explanation on how to source your goods for reselling. If you want to learn more about the what to do after you source your inventory, read chapter two of [Poshmark Ultimate Guide to Reselling]( {{base_url}}/guides/poshmark-ultimate-guide ).
 

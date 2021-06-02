@@ -167,7 +167,7 @@ The second reason you should list frequently is because the longer you wait to l
 
 What I would do is set time at least once a week to list your new inventory.
 
-### What's next?
+### Looking for more?
 
 Over time, you'll get better and better at making great listings. The first step is to just do it and try the tactics that would make _you_ want to buy the item. If you want to learn important Poshmark sales strategies to follow after listing your item, read chapter three of [Poshmark Ultimate Guide to Reselling]( {{base_url}}/guides/poshmark-ultimate-guide ).
 

@@ -1,15 +1,16 @@
 ---
 layout: post
-title:  "Poshmark Success: Sales Strategies You Should Know"
-description: Poshmark strategies to sell faster
+title:  "Poshmark Success: 3 Strategies Every Reseller Should Follow"
+description: Poshmark strategies for selling faster
 image: src/img/1.jpg
 duration: 11
-published: false
 ---
 
-After you've selected high quality items to sell, listed them with clear photos and key words, you may think you're done. But the magic really happens with outreach. I can confidently guarantee that if you follow these strategies I outline below, you _will sell faster_.
+After you've selected high quality items to sell, listed them with clear photos and key words, you may think you're done. But the magic really happens with outreach. I can confidently say that if you follow these strategies I outline below, you _will sell faster_.
 
+In this chapter will only include the most important things you need to do to sell on Poshmark. The guide on whether **following other sellers, hosting Posh parties, or sharing other sellers' closets** are worth it in a future post. Sign up to the newsletter at the bottom of the page if you'd like to be kept in the loop!
 
+Let's get into it.
 
 ***This is Chapter 3  of the [Poshmark Ultimate Guide to Reselling]( {{base_url}}/guides/poshmark-ultimate-guide ).***
 
@@ -54,7 +55,7 @@ Poshmark's claim for creating the sharing system is to even the playing field fo
 
 Poshmark today as it stands doesn't commit a lot of resources in tracking down those who use bots or punishing them. The worst that can happen is your shares are silenced, or you're put in "share jail" temporarily where you can't share for <24 hours. Some people however have mentioned it's possible for Poshmark to ban your account for abusive sharing. I suggest anyone using bots share conservatively and stay under 5000 shares max.
 
-n the end, tracking and banning sellers who use bots will discourage sellers from using the platform, and that hurts the bottom line for Poshmark.
+In the end, tracking and banning sellers who use bots will discourage sellers from using the platform, and that hurts the bottom line for Poshmark.
 
 ### Are there alternatives to using a bot?
 
@@ -73,6 +74,64 @@ The one alternative to not having to share yourself is by hiring out a VA (virtu
 
 You could also find a niece/nephew, friend, or anyone trustworthy with more time who may be willing to share your closet. But it's unknown how consistently they will share or continue sharing.
 
+
+##### Section 2
+{: class="section-header"}
+## 📤  Proactively send offers
+
+### Respond to offers as soon as you can
+Time is one of the biggest factors to whether you will close a deal. Whenever you get an offer, respond on it as soon as you can. The best case scenario is you catch the buyer soon after they had shown interest, they see a new offer you've sent that will expire, and they act on impulse to accept the offer.
+
+Another way to think of it is the more time you let the negotiation sit on the table, the more time you're giving the potential buyer to reconsider purchasing your item or finding something else.
+
+### Offer to likers
+When a potential buyer finds your item, they may "like" the item if they want to keep an eye on it but are not ready to purchase yet. If an item isn't getting a lot of traction, you can send offers to likers to remind them the item is still available, and to also offer them a private limited time discount.
+
+### Offer private bundle discounts
+On Poshmark you can't message buyers directly but you can communicate to them privately by creating a bundle for them, adding the item they liked, and then leaving a personalized comment about a bundle offer. The other benefits for this they'll get multiple notifications about your actions: you added something to their bundle, you commented, and you sent them an offer.
+
+### Offer public bundle discounts
+As well as sending discounts for individual items, you can send discounts for bundles, or when the buyer purchases more than one item from your closet. This can be set as a public discount so everyone visiting your closet knows you give a discount for bundles. For example, you can offer 5% off when someone buys two of your items at the same time.
+
+### Send an eye-catching offer the first time
+Avoid over-sending offers to likers because the more offers you send, more likely you give the impression you're willing to go even lower and lower on the price.
+
+### Always counteroffer lowball offers
+
+I know, it's always disappointing and maybe even offensive when you know you have a great product and list something at $45 then receive an offer on it for $8. Maybe your first reaction will be to not even give this person the time of day and even decline the offer. However, objectively you could be passing up on a potentially good business opportunity. I suggest responding with a reasonable counteroffer, or even counteroffer with a dollar or two off. Sometimes, buyers just are trying to find the best deal and just want to see what reaction you would give to their offer. Some buyers are still open-minded on the pricing.
+
+
+##### Section 3
+{: class="section-header"}
+## ✨ Keep your closet fresh
+
+### List items frequently
+The more listing you have, the more likely it is for someone to find one of your items and look at the rest of your closet. Think of each listing as a possible source of traffic for your closet. And the more eyes there are on your closet, the more you'll sell.
+
+### Relist items frequently
+It's also great to relist stale items because your item will rank higher in the Just In category. Hopefully this will get more traction and fresh eyes on your item.
+
+### Improve your titles and descriptions
+Make your listing as search-friendly as possible by using as many relevant keywords as you can. For example, instead of **American Eagle Jeans**, use **American Eagle Black High-rise Distressed Jeans, 6 Long**.
+
+### Improve your photo quality
+For the listings that are getting stale, it may be worthwhile to revamp the photos. The item photo is the first thing buyers will see, so you want to post something eye-catching. If you do this for all your listings, it will make your entire closet pop and encourage the buyer to keep scrolling.
+
+We go in depth about all this in the [Step by Step Guide to Posting Poshmark Listings that Sell]( {{base_url}}/guides/list-on-poshmark ).
+
+
+## 💡 Bonus tip
+### Use the iPhone text replacement shortcut
+
+When sending comments on bundles, instead of typing the same message over and over again, you can create a template to reuse.
+
+<pre>Thank you for your like! If you're interested, I will gladly send 20% off and discounted shipping for purchases of at least 2 items. Looking forward to your response!</pre>
+
+Furthermore, in your phone settings you can use automatic text replacement where typing a short phrase like "pb" or "poshbundle" will be replaced with the bundle template text. This will save you time from copying/pasting or typing out the same message to each liker.
+
+
+### Looking for more?
+This is the top most useful strategies you can use to sell faster on Poshmark.  If you want to learn more about selling on Poshmark, check out the other chapters of [Poshmark Ultimate Guide to Reselling]( {{base_url}}/guides/poshmark-ultimate-guide ).
 
 
  

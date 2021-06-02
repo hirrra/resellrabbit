@@ -36,10 +36,19 @@ Sellers are getting better at listing up attracting postings for their items. If
 **[Step by step guide to posting Poshmark listings that sell &nbsp; &#10145;]( {{base_url}}/guides/list-on-poshmark )**
 {: class="guide-link"}
 
+##### Chapter 3
+{: class="section-header"}
+## Boost exposure to your closet
+
+Every reselling platform, whether Mercari or Ebay, has things specific to the platform you need to do to gain closet traffic. In this guide we go over what are the essential strategies you need to know about Poshmark in order to be successful and close sales faster.
+
+**[Poshmark Success: 3 3 Strategies Every Reseller Should Follow &nbsp; &#10145;]( {{base_url}}/guides/list-on-poshmark )**
+{: class="guide-link"}
+
 
 ## Author's note
 ***🚧  The rest of this guide is under construction. Subscribe to our newsletter at the bottom of the page or bookmark this site and come back to finish the rest of the guide!***
 
 Chapters to expect:
-+  Sales strategies
++  Extra sales strategies
 +  Shipping advice
