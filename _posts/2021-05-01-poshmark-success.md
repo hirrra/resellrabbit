@@ -3,7 +3,7 @@ layout: post
 title:  "Poshmark Success: Sales Strategies You Should Know"
 description: Poshmark strategies to sell faster
 image: src/img/1.jpg
-duration: 4
+duration: 11
 published: false
 ---
 
@@ -11,7 +11,7 @@ After you've selected high quality items to sell, listed them with clear photos 
 
 
 
-***This is Chapter 2  of the [Poshmark Ultimate Guide to Reselling]( {{base_url}}/guides/poshmark-ultimate-guide ).***
+***This is Chapter 3  of the [Poshmark Ultimate Guide to Reselling]( {{base_url}}/guides/poshmark-ultimate-guide ).***
 
 ### Sections
 1. seed
