@@ -32,6 +32,11 @@
             <div class="container-sm flex-container">
               <span class="meta description meta-duration flex-item">
                 <span class="emoji">📖</span> {{ page.duration }} min read</span>
+              </span>
+              <span class="meta description flex-item meta-date"><span class="emoji">🗓️</span><time datetime="{{ page.date | date:"%Y-%m-%d" }}"> {{ page.date | date_to_string }}</time></span>           
+              {% if page.last_modified_at %}
+              (Updated: <time datetime="{{ page.last_modified_at | date_to_xmlschema }}" itemprop="dateModified">{{ page.last_modified_at | date: "%b %-d, %Y" }}</time>)
+              {% endif %}
               <span class="meta description meta-description">
                 <span class="emoji">👚</span> <a href="https://www.facebook.com/groups/801029790774238/"> Join our Poshmark Resellers Facebook support group</a></span>
             </div>
