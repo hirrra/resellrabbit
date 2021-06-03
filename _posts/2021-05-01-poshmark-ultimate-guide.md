@@ -42,7 +42,7 @@ Sellers are getting better at listing up attracting postings for their items. If
 
 Every reselling platform, whether Mercari or Ebay, has things specific to the platform you need to do to gain closet traffic. In this guide we go over what are the essential strategies you need to know about Poshmark in order to be successful and close sales faster.
 
-**[Poshmark Success: 3 3 Strategies Every Reseller Should Follow &nbsp; &#10145;]( {{base_url}}/guides/list-on-poshmark )**
+**[Poshmark success: 3 Strategies every reseller should follow &nbsp; &#10145;]( {{base_url}}/guides/poshmark-success )**
 {: class="guide-link"}
 
 
