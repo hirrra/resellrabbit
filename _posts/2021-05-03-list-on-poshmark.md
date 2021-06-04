@@ -35,6 +35,7 @@ Flat-lays are when the item is flat on a surface and the viewer has an eagle-eye
 
 **Con:** Not very easy to set up (like having to rotate photos afterward all the time)
 
+![Flatlaying a shirt](../assets/lop-flatlay.png)
 
 ##### Hanging on a hanger
 Hanging the item is sometimes the easiest. What I'd do is stick a clear command hook on the wall, then use a wooden hanger (talk about high class!) to display the piece. 
@@ -42,6 +43,8 @@ Hanging the item is sometimes the easiest. What I'd do is stick a clear command 
 **Pro:** Easy to set up and fast to change out clothes 
 
 **Con:** Can make looser clothes look particularly boxy
+
+![Hanging a shirt](../assets/lop-hang.png)
 
 ##### Modeling 
 In my opinion, whether or not to model the item can be very dependent to what the item is and how it fits the model. If you do model, you should consider cropping out your face and background items to protect your privacy. You can take photos of yourself modeling by using a full-length mirror, or picking up a cheap tripod and setting the camera on "selfie" mode.
@@ -51,6 +54,8 @@ In my opinion, whether or not to model the item can be very dependent to what th
 **Cons:** Can attract unwanted attention (think creep with no intention of buying the item).* May  make buyers uncomfortable to see an item they like worn by someone else.* Takes longer than the other options.
 
 *Mannequins solve these cons.
+
+![Modeling a shirt](../assets/lop-model.png)
 
 ### Be mindful of the background
 
@@ -74,7 +79,9 @@ Lighting is absolutely important as it can change the entire look of the piece. 
 
 However, these can be pricey and in this case natural lighting is the way to go. Try to take photos early in the day, and set the item next to a large window. I suggest avoiding artificial lighting when you can because it will make your photos darker and can add a yellow tint to your photos. 
 
-<!--  artificial light vs natural light -->
+**Artificial Light vs Natural Light**
+{: class="text-center"}
+![Artificial vs natural light](../assets/lop-lighting.jpg)
 
 ### Post-editing
 
@@ -84,6 +91,8 @@ There are also tools that remove the background from the product you're photogra
 
 Do keep your photos accurate so your buyers aren't surprised if they expect a different color. Avoid any photo filters that have a colored tint or vignette.
 
+![Postedit your photos (left using remove.bg, right using native iPhone editing app)](../assets/lop-postedit.png)
+
 ### Use stock photos
 
 OK technically we're not supposed to use stock photos since your normal reseller likely doesn't have official permission to use the photos of a big brand, but many people do it anyway. I'd tread with caution here, but I wouldn't worry unless you've already received a warning on it.
@@ -91,6 +100,8 @@ OK technically we're not supposed to use stock photos since your normal reseller
 Using stock photos is ideal because you know the item is shown clearly and is fitted well on the model. 
 
 To find a stock photo, you can Google the keywords matching your item, or you can Google the product number on the fabric tag of the item. Then you can download the photo onto your phone or computer. If you're not able to save the image, then you can take a screenshot of the page and then crop the photo.
+
+![Example stock photo](../assets/lop-stock.jpg)
 
 ### Be thorough
 
