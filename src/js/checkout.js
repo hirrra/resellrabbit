@@ -14,8 +14,8 @@ const firebaseConfig = {
 
 const stripeVars = {
   publishableKey: 'pk_test_51IThrWBkbf8GXgrmYqFd0yr9yIZH5GWqU5R4faGp7vd9wEier2tQu2VfYYl7xySBoh6hEUmUHECB9Lqh8lQOtWrr00AYIPykxu',
-  priceIdMonthly: 'price_1ImRwvBkbf8GXgrmTDtpUSNT',
-  priceIdYearly: 'price_1ImRwvBkbf8GXgrmIRlrtHdF'
+  priceIdMonthly: 'price_1IzXVqBkbf8GXgrmAMXZC4Fm',
+  priceIdYearly: 'price_1IzXVqBkbf8GXgrmyaIOEWSm'
 }
 
 const CANCEL_URL = window.location.origin;
@@ -34,9 +34,17 @@ function createUserWithEmailAndPassword () {
   const name = form.elements.name.value;
   const email = form.elements.email.value;
   const password = form.elements.password.value;
+  const passwordver = form.elements.passwordver.value;
 
+  // Verify name input has text.
   if (name === '') {
     alert('Name must be filled out.');
+    return;
+  }
+
+  // Verify that passwords match.
+  if (password !== passwordver) {
+    alert('Passwords don\'t match.');
     return;
   }
 
@@ -49,7 +57,7 @@ function createUserWithEmailAndPassword () {
     })
     .catch((error) => {
       const errorMessage = error.message;
-      alert(`${errorMessage}`);
+      console.log(errorMessage);
     });
 }
 
@@ -65,7 +73,7 @@ function loginWithEmailAndPassword () {
     })
     .catch((error) => {
       const errorMessage = error.message;
-      alert(`${errorMessage}`);
+      alert(`Error. ${errorMessage}`);
     });
 }
 
@@ -148,7 +156,7 @@ async function initStripe (createdUser = null) {
       stripe.redirectToCheckout({ sessionId: sessionId, customerEmail: user.customerEmail });
     }
     if (error) {
-      alert(`${error}`);
+      alert(`Error. ${error}`);
     }
   });
 }
@@ -168,4 +176,12 @@ function getRedirectMsg(redirectToPortal = false) {
     subject = PORTAL_SUBJECT;
   }
   return `Redirecting to Stripe... <br /> <span class="description">If this page does not redirect within 10 seconds, please <a href="mailto:resellrabbit@gmail.com?subject=[${subject}]" class="pink">reach me directly</a>.</span>`;
+}
+
+function showSignUpPasswordVerification() {
+  const signupForm = document.getElementsByName('signup-form')[0];
+  if (signupForm) {
+    const passwordVerify = signupForm.elements.passwordver;
+    passwordVerify.style.display = 'block';
+  }
 }

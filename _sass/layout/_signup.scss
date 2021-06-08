@@ -1,4 +1,6 @@
-
+.signup-form input[name="passwordver"] {
+  display: none;
+}
 
 @include media( '>medium' ) {
   .signup, .login {

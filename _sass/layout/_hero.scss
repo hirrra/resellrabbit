@@ -62,7 +62,7 @@
 @include media( '>medium' ) {
 
     .hero {
-        padding-bottom: 120px;
+        padding-bottom: 60px;
     }
 
     .hero-main {
@@ -95,7 +95,7 @@
 
     .hero {
         text-align: left;
-        padding-top: 80px;
+        padding-top: 40px;
 
         &::before {
             top: -80px; /* Header height */

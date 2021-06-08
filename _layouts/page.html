@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<!-- Use 'has-animations' class for animate on load. -->
+<body class="is-boxed has-animations">
+    <div class="body-wrap">
+
+        {% include header.html %}
+
+        <main class="container-sm">
+          {{ content}}
+        </main>
+
+        {% include footer.html %}
+
+    </div>
+
+    <!-- Below must be loaded before Firebase services used -->
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-functions.js"></script>
+
+    <script src="{{ 'src/js/main.js' | relative_url }}"></script>
+    <script src="{{ 'src/js/checkout.js' | relative_url }}" async></script>
+    <script src="{{ 'src/js/form-submission.js' | relative_url }}"></script>
+</body>
+</html>
+

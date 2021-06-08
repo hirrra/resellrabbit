@@ -33,7 +33,10 @@ permalink: /signup
             <input class="input" type="email" name="email" placeholder="Email">
           </div>
           <div class="field">
-            <input class="input" type="password" name="password" placeholder="Password">
+            <input class="input" type="password" name="password" placeholder="Password" oninput="showSignUpPasswordVerification()">
+          </div>
+          <div class="field">
+            <input class="input" type="password" name="passwordver" placeholder="Re-enter your password">
           </div>
           <div class="control">
             <a type="submit" class="button button-primary button-block button-shadow" onclick="createUserWithEmailAndPassword()">Sign up
