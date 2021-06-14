@@ -6,8 +6,6 @@ permalink: /privacy
 
 # Private Policy
 
-Effective Date of Current Policy: June 14, 2021
-
 ResellRabbit ("Service", "we", or "us") operates the website located at resellrabbit.com. This Privacy Policy describes the information that we collect through our website and how we use that information. If you have any questions about our Privacy Policy, please contact us at resellrabbit@gmail.com. This Privacy Policy applies to the services and products offered by ResellRabbit, as well as any other applications, content or features that we may from time to time offer on our website.
 
 ## The Types of Information that We Collect
@@ -28,12 +26,14 @@ Generally, we will not disclose the personally identifiable information that we 
 No system of transmitting data over the Internet, can be guaranteed to be 100% secure. Consequently, while we use commercially reasonable efforts to protect your personally identifiable information, we cannot guarantee the security of information any information provided to us or to any third party through or in connection with the website. Any information that you provide to us is done so entirely at your own risk.
 
 ## We Reserve the Right to Update and Revise this Privacy Policy at Any Time
-From time to time we review this Privacy Policy to ensure that it complies with applicable law. Consequently, we reserve the right to update and revise this Privacy Policy at any time. You will know if this Privacy Policy has been revised since your last visit to the website by referring to the "Effective Date of Current Policy" date at the top of this page. Your use of our website constitutes your acceptance of the terms of the Privacy Policy as amended or revised by us from time to time, and you should therefore review this Privacy Policy regularly to ensure that you are aware of its terms.
+From time to time we review this Privacy Policy to ensure that it complies with applicable law. Consequently, we reserve the right to update and revise this Privacy Policy at any time. You will know if this Privacy Policy has been revised since your last visit to the website by referring to the "Effective Date of Current Policy" date at the bottom of this page. Your use of our website constitutes your acceptance of the terms of the Privacy Policy as amended or revised by us from time to time, and you should therefore review this Privacy Policy regularly to ensure that you are aware of its terms.
 
 ## Our Website may Contain Links to Other Websites
 Please be aware that we are not and cannot be responsible for the privacy practices of any websites that you access through our website and that this Privacy Policy applies solely to the information which we collect through our website. We encourage you to ensure that you read the privacy statements of all the destination websites which you visit.
 
-By using or accessing the Service in any manner, you acknowledge that you accept the practices and policies outlined in this Privacy Policy, and you hereby consent that we will collect, use, and share your information as set forth below.
+By using or accessing the Service in any manner, you acknowledge that you accept the practices and policies outlined in this Privacy Policy, and you hereby consent that we will collect, use, and share your information as set forth.
 
-‍## Contacting Us
+## Contacting Us
 If you have any questions or concerns regarding our privacy policies, please send us a detailed email to resellrabbit@gmail.com.
+
+**Effective Date of Current Policy: June 13, 2021**

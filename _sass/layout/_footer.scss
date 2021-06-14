@@ -24,6 +24,7 @@
 .footer-links,
 .footer-social-links,
 .footer-copyright {
+    color: color(main, white);
     flex: none;
     width: 100%;
     display: inline-flex;
@@ -93,6 +94,10 @@
 
     .site-footer-inner {
         justify-content: space-between;
+
+        .flex-end {
+            width: 50%;
+        }
     }
 
     .footer-social-links {
@@ -114,12 +119,5 @@
 
     .footer-links {
         order: 1;
-    }
-}
-
-@include media( '<=large' ) {
-
-    .footer-copyright {
-        color: color(typography, 3);
     }
 }
