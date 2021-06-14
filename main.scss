@@ -46,6 +46,7 @@
 # Cards
 --------------------------------------------------------------*/
 @import "components/cards";
+@import "components/cta";
 
 /*--------------------------------------------------------------
 # Header
@@ -64,9 +65,10 @@
 @import "layout/content-navigation";
 @import "layout/newsletter";
 @import "layout/features";
-@import "layout/posts";
 @import "layout/pricing";
 @import "layout/signup";
+@import "layout/posts";
+@import "layout/postbox";
 
 /*--------------------------------------------------------------
 # Footer

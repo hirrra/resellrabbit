@@ -81,6 +81,22 @@
     transition: background .15s ease;
 }
 
+.button-secondary {
+    color: color(main, white) !important;
+    background: color(main, auburn);
+    transition: background .15s ease;
+
+    &:hover {
+        color: color(main, white);
+        background: darken(mix(color(main, auburn), color(main, auburn)), 10%);
+    }
+}
+
+.button-three {
+    color: color(main, pink) !important;
+    background: color(main, white);
+}
+
 .button-primary {
     background: mix(color(additional, 1), color(additional, 2));
     background: linear-gradient(65deg, color(additional, 1) 0, color(additional, 2) 100%);
@@ -152,12 +168,12 @@
 }
 
 .google-button {
-    background: color(additional, 6);
-    background: linear-gradient(65deg, color(additional, 6) 0, color(additional, 7) 100%);
+    background: color(main, google-red-a);
+    background: linear-gradient(65deg, color(main, google-red-a) 0, color(main, google-red-b) 100%);
 
     &:hover {
-        background: lighten(mix(color(additional, 6), color(additional, 7)), 1%);
-        background: linear-gradient(65deg, lighten(color(additional, 6), 1%) 0, lighten(color(additional, 7), 1%) 100%);
+        background: lighten(mix(color(main, google-red-a), color(main, google-red-b)), 1%);
+        background: linear-gradient(65deg, lighten(color(main, google-red-a), 1%) 0, lighten(color(main, google-red-b), 1%) 100%);
     }
 }
 

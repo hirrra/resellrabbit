@@ -30,10 +30,21 @@ $color: (
 		2: #ffaaab,
 		3: #FFFFFF,
 		4: #fbfbfb,
-		5: #d6d6d6,
-		6: #ff4737,
-		7: #ff9c93 
-	 )
+		5: #d6d6d6
+	 ),
+	main: (
+		light-pink: #faf1f4,
+		coral-pink: #ffaaab,
+		red-pink: #e6adad,
+		pink: #ff7b87,
+		hot-pink: #ff5e6c,
+		google-red-a: #ff4737,
+		google-red-b: #ff9c93,
+		auburn: #9c6060,
+		light-blue: lightblue,
+		white: #fff,
+		light-gray: #EFEFEF
+	)
 );
 
 // --------------------------------------------
@@ -98,3 +109,4 @@ $content__padding: (
 );
 $container__width: 1080px;
 $container__width-sm: 800px;
+$container__width-thin: 600px;

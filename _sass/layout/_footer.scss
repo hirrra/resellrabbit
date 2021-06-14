@@ -5,7 +5,8 @@
             @include font-size(8, desktop, true, true, true);
         }
     }
-    color: color(typography, 3);
+    color: color(main, white);
+    background: color(main, coral-pink);
 
     a {
         @include anchor-aspect(footer);
@@ -27,11 +28,13 @@
     width: 100%;
     display: inline-flex;
     justify-content: center;
+    font-weight: bold;
 }
 
 .footer-brand,
 .footer-links,
-.footer-social-links {
+.footer-social-links,
+.footer-links {
     margin-bottom: 24px;
 }
 
@@ -57,13 +60,30 @@
     }
 }
 
+.footer-site-links {
+    li {
+        margin-bottom: 8px;
+        
+        a {
+            color: color(main, white);
+            font-weight: bold;
+
+            &:hover {
+                color: color(main, white);
+                text-decoration: none;
+            }
+        }
+    }
+}
+
 .footer-links {
 
     a {
-        color: color(typography, 3);
+        color: color(main, white);
+        font-weight: bold;
 
         &:hover {
-            color: color(typography, 2);
+            color: color(main, white);
             text-decoration: none;
         }
     }
@@ -84,19 +104,16 @@
         flex: 50%;
     }
 
-    .footer-brand,
-    .footer-copyright {
-        justify-content: flex-start;
-    }
 
     .footer-links,
-    .footer-social-links {
+    .footer-social-links,
+    .footer-brand,
+    .footer-copyright  {
         justify-content: flex-end;
     }
 
     .footer-links {
         order: 1;
-        margin-bottom: 0;
     }
 }
 

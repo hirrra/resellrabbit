@@ -69,11 +69,11 @@ function loginWithEmailAndPassword () {
     .then((userCredential) => {
       // Signed in
       const createdUser = userCredential.user;
-      this.showAccountDashboard(createdUser);
+      this.redirectToCustomerPortal();
     })
     .catch((error) => {
       const errorMessage = error.message;
-      alert(`Error. ${errorMessage}`);
+      alert(`${errorMessage}`);
     });
 }
 
@@ -170,7 +170,7 @@ async function redirectToCustomerPortal () {
   window.location.assign(data.url);
 }
 
-function getRedirectMsg(redirectToPortal = false) {
+function getRedirectMsg (redirectToPortal = false) {
   let subject = SUBSCRIPTION_SUBJECT;
   if (redirectToPortal) {
     subject = PORTAL_SUBJECT;
@@ -178,7 +178,7 @@ function getRedirectMsg(redirectToPortal = false) {
   return `Redirecting to Stripe... <br /> <span class="description">If this page does not redirect within 10 seconds, please <a href="mailto:resellrabbit@gmail.com?subject=[${subject}]" class="pink">reach me directly</a>.</span>`;
 }
 
-function showSignUpPasswordVerification() {
+function showSignUpPasswordVerification () {
   const signupForm = document.getElementsByName('signup-form')[0];
   if (signupForm) {
     const passwordVerify = signupForm.elements.passwordver;

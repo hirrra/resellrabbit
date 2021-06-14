@@ -13,6 +13,10 @@
           {{ content}}
         </main>
 
+        {% if page.newsletter %}
+          {% include newsletter.html %}
+        {% endif%}
+        
         {% include footer.html %}
 
     </div>

@@ -5,17 +5,10 @@
   doc.classList.remove('no-js')
   doc.classList.add('js')
 
-  if (window.location.pathname === '/profile') {
-    const profileContent = document.getElementById('profile-content');
-    profileContent.innerHTML = '<object type="text/html" data="profile-content.html" ></object>';
-  }
-
   // Reveal animations
   if (document.body.classList.contains('has-animations')) {
-    const contentEl = document.querySelector('.content')
-
     /* global ScrollReveal */
-    const sr = window.sr = ScrollReveal()
+    const sr = window.sr = new ScrollReveal({ reset: true });
 
     // sr.reveal('.hero-title, .hero-paragraph, .newsletter-header, .newsletter-form, .hero-form, .hero-illustration', {
     //   duration: 1000,
@@ -49,4 +42,5 @@
       viewFactor: 0.5
     })
   }
+
 }())

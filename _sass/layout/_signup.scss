@@ -3,12 +3,9 @@
 }
 
 @include media( '>medium' ) {
-  .signup, .login {
-    margin: 50px 0;
 
-    .flex-container {
-      align-items: center;
-    }
+  .flex-container {
+    align-items: center;
   }
 
   .signup-left, .login-left {

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<!-- Use 'has-animations' class for animate on load. -->
+<body class="is-boxed has-animations">
+    <div class="body-wrap guides-hub">
+
+        {% include header.html %}
+
+        <main class="container-sm mb-64">
+
+          <h1 class="text-center mt-24">Poshmark Guides</h1>
+          <div class="postbox-group flex-container">
+            
+            {% for post in site.posts %}
+              {% include postbox.html %}
+            {% endfor %}
+            
+          </div>
+
+        </main>
+
+        {% include footer.html %}
+
+    </div>
+
+    <script src="{{ 'src/js/main.js' | relative_url }}"></script>
+    <script src="{{ 'src/js/form-submission.js' | relative_url }}"></script>
+</body>
+</html>

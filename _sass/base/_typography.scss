@@ -219,6 +219,7 @@ pre {
 	padding: 24px;
 	margin-top: 24px;
 	margin-bottom: 24px;
+	
 }
 
 code, kbd, tt, var {
@@ -252,7 +253,7 @@ label {
 	@include font-size(5, mobile, true, true);
 }
 
-p a, .pink {
+li a, p a, .pink {
 	color: color(additional, 1);
 }
 
