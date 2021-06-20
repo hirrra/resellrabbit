@@ -2,6 +2,10 @@
   display: none;
 }
 
+.twocol-left {
+  width: 410px;
+}
+
 .uninstall {
   .flex-container {
       flex-direction: column;
@@ -20,6 +24,7 @@
     height: 140px;
   }
 }
+
 
 @include media( '>medium' ) {
 

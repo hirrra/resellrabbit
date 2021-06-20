@@ -53,11 +53,15 @@ function createUserWithEmailAndPassword () {
       // Signed in.
       const createdUser = userCredential.user;
       createdUser.updateProfile({ displayName: name });
+      this.showRedirectMsg();
       this.initStripe(createdUser);
     })
     .catch((error) => {
-      const errorMessage = error.message;
-      console.log(errorMessage);
+      let errorMessage = error.message;
+      if (error.code === 'auth/email-already-in-use') {
+        errorMessage += ' Please login instead or correct the entered email.'
+      }
+      alert(`${errorMessage}`);
     });
 }
 
@@ -69,6 +73,7 @@ function loginWithEmailAndPassword () {
     .then((userCredential) => {
       // Signed in
       const createdUser = userCredential.user;
+      this.showRedirectMsg(/* redirectToPortal */ true);
       this.redirectToCustomerPortal();
     })
     .catch((error) => {
@@ -82,10 +87,10 @@ async function loginWithGoogle (isInCheckoutProcess = false) {
   firebase.auth().signInWithPopup(provider).then(() => {
     if (isInCheckoutProcess) {
       // Redirect to Stripe checkout.
-      document.getElementById('signup-panel').innerHTML = this.getRedirectMsg();
+      this.showRedirectMsg();
       initStripe();
     } else {
-      document.getElementById('login-panel').innerHTML = this.getRedirectMsg(/* redirectToPortal */ true);
+      this.showRedirectMsg(/* redirectToPortal */ true);
       this.redirectToCustomerPortal();
     }
   }).catch((err) => {
@@ -156,7 +161,10 @@ async function initStripe (createdUser = null) {
       stripe.redirectToCheckout({ sessionId: sessionId, customerEmail: user.customerEmail });
     }
     if (error) {
-      alert(`Error. ${error}`);
+      // TODO: Fix preventing double requests error.
+      if (!error.message.startsWith('There is currently another in-progress request')) {
+        alert(`${error.message}`);
+      }
     }
   });
 }
@@ -170,12 +178,12 @@ async function redirectToCustomerPortal () {
   window.location.assign(data.url);
 }
 
-function getRedirectMsg (redirectToPortal = false) {
+function showRedirectMsg (redirectToPortal = false) {
   let subject = SUBSCRIPTION_SUBJECT;
   if (redirectToPortal) {
     subject = PORTAL_SUBJECT;
   }
-  return `Redirecting to Stripe... <br /> <span class="description">If this page does not redirect within 10 seconds, please <a href="mailto:resellrabbit@gmail.com?subject=[${subject}]" class="pink">reach me directly</a>.</span>`;
+  document.querySelector('.modal').innerHTML = `Redirecting to Stripe... <br /> <span class="description">If this page does not redirect within 10 seconds, please <a href="mailto:resellrabbit@gmail.com?subject=[${subject}]" class="pink">reach me directly</a>.</span>`;
 }
 
 function showSignUpPasswordVerification () {
