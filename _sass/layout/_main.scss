@@ -12,6 +12,10 @@
     padding-top: 50px;
 }
 
+main {
+    flex: 1 0 auto;
+}
+
 .boxed-container {
     max-width: 1440px;
     margin: 0 auto;
