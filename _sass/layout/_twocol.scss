@@ -1,0 +1,46 @@
+.signup-form input[name="passwordver"] {
+  display: none;
+}
+
+.uninstall {
+  .flex-container {
+      flex-direction: column;
+  }
+  .message {
+    border: 1px solid #e4e6f2;
+    border-radius: 10px;
+    box-shadow: 0 2px 14px 0 rgba(0, 0, 0, 5%);
+    padding: 50px 55px;
+    max-width: 550px;
+  }
+  .twocol-left {
+    margin-right: 0;
+  }
+  textarea {
+    height: 140px;
+  }
+}
+
+@include media( '>medium' ) {
+
+  .flex-container {
+    align-items: center;
+  }
+
+  .twocol-left {
+    margin-right: 40px;
+  }
+}
+
+@include media( '>large' ) {
+
+  .uninstall {
+    .flex-container {
+      flex-direction: row;
+    }
+
+    .twocol-left {
+      margin-right: 40px;
+    }
+  }
+}

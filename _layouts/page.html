@@ -9,7 +9,11 @@
 
         {% include header.html %}
 
-        <main class="container-sm">
+        {% if page.wide %}
+          <main class="container">
+        {% else %}
+          <main class="container-sm">
+        {% endif %}
           {{ content}}
         </main>
 

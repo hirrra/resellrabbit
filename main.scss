@@ -58,6 +58,12 @@
 --------------------------------------------------------------*/
 @import "layout/hero";
 
+
+/*--------------------------------------------------------------
+# Two columns (signup, login, uninstall)
+--------------------------------------------------------------*/
+@import "layout/twocol";
+
 /*--------------------------------------------------------------
 # Site content
 --------------------------------------------------------------*/
@@ -66,7 +72,6 @@
 @import "layout/newsletter";
 @import "layout/features";
 @import "layout/pricing";
-@import "layout/signup";
 @import "layout/posts";
 @import "layout/postbox";
 

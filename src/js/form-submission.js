@@ -84,8 +84,6 @@
   }
 
   function handleFormSubmit(event) {  // handles form submit without any jquery
-    const FORM_URL = "https://script.google.com/macros/s/AKfycbwXuIekxvdPMU2Ru1AE4exJFMdXfvec4vQC5q80JpH6kdRk99NC-uo1h9znJqR-cmVW-Q/exec";
-
     event.preventDefault();           // we are submitting via xhr below
     var form = event.target;
     var formData = getFormData(form);
@@ -96,13 +94,21 @@
       return false;
     }
 
-    // Stop if empty email.
-    if (!formData.data.email) {
-      return false;
+    // Newsletter forms.
+    if (form.name === 'submit-to-invites-signup') {
+      // Stop if empty email.
+      if (!formData.data.email) {
+        return false;
+      }
+    }
+
+    // Feedback uninstall form.
+    if (form.name === 'uninstall-feedback-form') {
+      formData.data.plan = window.location.search.substring(1);
     }
     
     showThankyou(form);
-    var url = FORM_URL;
+    var url = form.action;
     var xhr = new XMLHttpRequest();
     xhr.open('POST', url);
     // xhr.withCredentials = true;

@@ -31,7 +31,7 @@ ResellRabbit does **not** save any of your Poshmark-related data. In other words
 If you have any concerns or suggestions, [please let us know](mailto:resellrabbit@gmail.com?subject=[Feedback]). This helps us make the tool better for you and others!
 
 #### 💡 Bonus
-Join our support [Facebook Poshmark support group](https://www.facebook.com/groups/801029790774238/){:target="_blank"}! 
+Join our [Facebook Poshmark sellers support group](https://www.facebook.com/groups/801029790774238/){:target="_blank"}! 
 
 
 

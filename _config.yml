@@ -22,7 +22,7 @@ title: ResellRabbit
 title-suffix: Poshmark Automation Tool and Closet Assistant
 email: resellrabbit@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Chrome extension to increase Poshmark sales and automate outreach without you personally investing any more time.
+  Chrome extension to increase Poshmark sales and automate outreach by auto sharing listings.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://resellrabbit.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
