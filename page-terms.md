@@ -2,6 +2,7 @@
 layout: page
 title: Terms of Service
 permalink: /terms
+small: true
 ---
  
 # Terms of Service
