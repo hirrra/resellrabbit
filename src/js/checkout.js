@@ -94,7 +94,7 @@ async function loginWithGoogle (isInCheckoutProcess = false) {
       this.redirectToCustomerPortal();
     }
   }).catch((err) => {
-    const msg = 'Error with signing in. Please contact me at resellrabbit@gmail.com and I help as soon as I can.';
+    const msg = 'Error with signing in. Please contact us at resellrabbit@gmail.com and we will help as soon as we can.';
     alert(`${msg}\n${err}`);
   });
 }
@@ -110,7 +110,7 @@ function sendPasswordResetEmail () {
     window.location.href = '/login';
   }).catch(function (error) {
     // An error happened.
-    alert(`${error.message}\nIf more information is needed, please contact me at resellrabbit@gmail.com.`);
+    alert(`${error.message}\nIf more information is needed, please contact us at resellrabbit@gmail.com.`);
   });
 }
 
@@ -183,7 +183,7 @@ function showRedirectMsg (redirectToPortal = false) {
   if (redirectToPortal) {
     subject = PORTAL_SUBJECT;
   }
-  document.querySelector('.modal').innerHTML = `Redirecting to Stripe... <br /> <span class="description">If this page does not redirect within 10 seconds, please <a href="mailto:resellrabbit@gmail.com?subject=[${subject}]" class="pink">reach me directly</a>.</span>`;
+  document.querySelector('.modal').innerHTML = `Redirecting to Stripe... <br /> <span class="description">If this page does not redirect within 10 seconds, please <a href="mailto:resellrabbit@gmail.com?subject=[${subject}]" class="pink">reach us directly</a>.</span>`;
 }
 
 function showSignUpPasswordVerification () {
