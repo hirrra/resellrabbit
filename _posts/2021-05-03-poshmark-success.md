@@ -4,6 +4,7 @@ title:  "Poshmark Success: 3 Strategies Every Reseller Should Follow"
 description: Poshmark strategies for selling faster
 image: src/img/1.jpg
 duration: 9
+last_modified_at: 2021-06-29
 ---
 
 After you've selected high quality items to sell, listed them with clear photos and key words, you may think you're done. But the magic really happens with outreach. I can confidently say that if you follow these strategies I outline below, you _will sell faster_.

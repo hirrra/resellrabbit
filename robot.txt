@@ -2,5 +2,6 @@
 layout: none
 ---
 User-agent: *
-Sitemap: {{ site.url }}/sitemap.xml
 Disallow: /welcome
+
+Sitemap: {{ site.url }}/sitemap.xml
