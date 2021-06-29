@@ -4,7 +4,7 @@ title:  Step by Step Guide to Posting Poshmark Listings that Sell
 description: How to make a listing on Poshmark that will catch a buyer's attention
 image: src/img/1.jpg
 duration: 9
-last_modified_at: 2021-06-29
+last_modified_at: 2021-06-28
 ---
 
 Knowing how to list on Poshmark can make or break how well you sell. You need to focus on SEO so potential buyers can find your items and you need to make a good impression so they buy! 
