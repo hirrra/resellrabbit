@@ -24,13 +24,16 @@
               <a href="{{ '/pricing' | relative_url }}" class="nav-link pricing-link {% if page.url == '/pricing' %} selected {% endif %}">Pricing</a>
             </li>
             <li class="nav-item">
-              <a href="{{ '/guides' | relative_url }}" class="nav-link {% if page.title == 'guides' %} selected {% endif %}">Guides</a>
+              <a href="{{ '/guides' | relative_url }}" class="nav-link {% if  page.url == '/guides'  %} selected {% endif %}">Guides</a>
             </li>
-            <!-- <li class="nav-item">
-              <a href="{{ '/login' | relative_url }}" class="nav-link pricing-link {% if page.url == '/login' %} selected {% endif %}">Login</a>
-            </li> -->
             <li class="nav-item">
-              <a href="{{ '/pricing' | relative_url }}" class="button button-primary button-shadow button-block button-sm">Sign up now</a>
+              <a href="{{ '/about' | relative_url }}" class="nav-link {% if  page.url == '/about'  %} selected {% endif %}">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="{{ '/login' | relative_url }}" class="nav-link pricing-link {% if page.url == '/login' %} selected {% endif %}">Login</a>
+            </li>
+            <li class="nav-item">
+              <a href="{{ site.chromelink }}"anifes target="_blank" class="button button-primary button-shadow button-block button-sm">Install for free</a>
             </li>
           </ul>
         </nav>

@@ -156,6 +156,12 @@
     display: none;
 }
 
+.gform[name="referral-program-form"] {
+    .thankyou {
+        top: 10px;
+    }
+}
+
 @include media( '>medium' ) {
 
     .field-grouped {

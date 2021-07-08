@@ -29,6 +29,7 @@ twitter_username:
 github_username:  
 include: ["_pages"]
 permalink: /guides/:title
+chromelink: "https://chrome.google.com/webstore/detail/poshmark-resellrabbit/cabihlkfnpoabedklembenkejcajkphe"
 
 # Build settings
 theme: jekyll-theme-cayman

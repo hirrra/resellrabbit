@@ -1,8 +1,9 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable no-undef */
 /* eslint-disable semi */
+const prod = false;
 
-const firebaseConfig = {
+var firebaseConfig = {
   apiKey: 'AIzaSyCHsvdC8MBpRQeKQq1rHidvoYBdE-WLCPg',
   authDomain: 'resellrabbit-3f22c.firebaseapp.com',
   projectId: 'resellrabbit-3f22c',
@@ -12,11 +13,29 @@ const firebaseConfig = {
   measurementId: 'G-TYY4T1GS7D'
 };
 
-const stripeVars = {
+var stripeVars = {
   publishableKey: 'pk_test_51IThrWBkbf8GXgrmYqFd0yr9yIZH5GWqU5R4faGp7vd9wEier2tQu2VfYYl7xySBoh6hEUmUHECB9Lqh8lQOtWrr00AYIPykxu',
   priceIdMonthly: 'price_1IzXVqBkbf8GXgrmAMXZC4Fm',
   priceIdYearly: 'price_1IzXVqBkbf8GXgrmyaIOEWSm'
 }
+
+if (prod) {
+  firebaseConfig = {
+    apiKey: "AIzaSyB1wMM-bZG8VF53ZfbMEg0TsaVCDLf59wM",
+    authDomain: "resellrabbit-posh-prod.firebaseapp.com",
+    projectId: "resellrabbit-posh-prod",
+    storageBucket: "resellrabbit-posh-prod.appspot.com",
+    messagingSenderId: "417226503516",
+    appId: "1:417226503516:web:5896ce530c551bac38fd99",
+    measurementId: "G-B6TQESBQ88"
+  };
+
+  stripeVars = {
+    publishableKey: 'pk_live_51IThrWBkbf8GXgrmKbtp37vhMqyLJuxspH2EHZXUocoFJKBoGdjFBsgqEoq06It3RyCDuK23VgB9tGkPqY3zpLym001mTvipCn',
+    priceIdMonthly: 'price_1JAN7FBkbf8GXgrmm49CFNSq',
+    priceIdYearly: 'price_1JAN7GBkbf8GXgrmM4l0ctII'
+  }
+} 
 
 const CANCEL_URL = window.location.origin;
 const SUCCESS_URL = window.location.origin + '/welcome';
@@ -88,7 +107,7 @@ async function loginWithGoogle (isInCheckoutProcess = false) {
     if (isInCheckoutProcess) {
       // Redirect to Stripe checkout.
       this.showRedirectMsg();
-      initStripe();
+      this.initStripe();
     } else {
       this.showRedirectMsg(/* redirectToPortal */ true);
       this.redirectToCustomerPortal();
@@ -150,7 +169,6 @@ async function initStripe (createdUser = null) {
     .collection('checkout_sessions')
     .add({
       price: plan,
-      allow_promotion_codes: true,
       success_url: SUCCESS_URL,
       cancel_url: CANCEL_URL
     });
@@ -163,6 +181,7 @@ async function initStripe (createdUser = null) {
     if (error) {
       // TODO: Fix preventing double requests error.
       if (!error.message.startsWith('There is currently another in-progress request')) {
+        console.log("DEBUG " + error.code + ": " + errorMessage);
         alert(`${error.message}`);
       }
     }
