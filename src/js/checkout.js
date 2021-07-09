@@ -50,14 +50,12 @@ firebase.analytics();
 
 function createUserWithEmailAndPassword () {
   const form = document.getElementsByName('signup-form')[0];
-  const name = form.elements.name.value;
   const email = form.elements.email.value;
   const password = form.elements.password.value;
   const passwordver = form.elements.passwordver.value;
 
-  // Verify name input has text.
-  if (name === '') {
-    alert('Name must be filled out.');
+  if (email.indexOf('+') > -1) {
+    alert('Please enter a valid email address.');
     return;
   }
 
@@ -71,7 +69,6 @@ function createUserWithEmailAndPassword () {
     .then((userCredential) => {
       // Signed in.
       const createdUser = userCredential.user;
-      createdUser.updateProfile({ displayName: name });
       this.showRedirectMsg();
       this.initStripe(createdUser);
     })

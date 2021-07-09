@@ -5,13 +5,15 @@
 
 <!-- Use 'has-animations' class for animate on load. -->
 <body class="is-boxed has-animations">
+  {% include chat.html %}
     <div class="body-wrap guides-hub">
 
         {% include header.html %}
 
         <main class="container-sm mb-64">
 
-          <h1 class="text-center mt-64">Poshmark Guides</h1>
+          <h1 class="text-center mt-64 mb-16">Up Your Reselling Game</h1>
+          <div class="text-center mb-56">Poshmark tips and tricks from ResellRabbit</div>
           <div class="postbox-group flex-container">
             
             {% for post in site.posts %}
