@@ -131,6 +131,20 @@
     background: color(bg, 1);
 }
 
+.beta-tag {
+    font-size: 0.7rem;
+    color: color(typography, 1i);
+    display: inline-block;
+    background: color(primary, 2);
+    border-radius: 15px;
+    padding: 0px 7px 27px 7px;
+    font-weight: bolder;
+    margin-left: 10px;
+    height: 0px;
+    position: relative;
+    top: 0px;
+}
+
 
 @include media( '>medium' ) {
 

@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable no-undef */
 /* eslint-disable semi */
-const prod = true;
+const PROD = true;
 
 var firebaseConfig = {
   apiKey: 'AIzaSyCHsvdC8MBpRQeKQq1rHidvoYBdE-WLCPg',
@@ -19,7 +19,7 @@ var stripeVars = {
   priceIdYearly: 'price_1IzXVqBkbf8GXgrmyaIOEWSm'
 }
 
-if (prod) {
+if (PROD) {
   firebaseConfig = {
     apiKey: "AIzaSyB1wMM-bZG8VF53ZfbMEg0TsaVCDLf59wM",
     authDomain: "resellrabbit-posh-prod.firebaseapp.com",
@@ -54,7 +54,7 @@ function createUserWithEmailAndPassword () {
   const password = form.elements.password.value;
   const passwordver = form.elements.passwordver.value;
 
-  if (email.indexOf('+') > -1) {
+  if (email.indexOf('+') > -1 && PROD) {
     alert('Please enter a valid email address.');
     return;
   }
@@ -170,10 +170,10 @@ async function initStripe (createdUser = null) {
       cancel_url: CANCEL_URL
     });
   docRef.onSnapshot(async (snap) => {
-    const { error, sessionId } = snap.data();
-    if (sessionId) {
-      const stripe = Stripe(stripeVars.publishableKey);
-      stripe.redirectToCheckout({ sessionId: sessionId, customerEmail: user.customerEmail });
+    const { error, url } = snap.data();
+    if (url) {
+      // We have a Stripe Checkout URL, let's redirect.
+      window.location.assign(url);
     }
     if (error) {
       // TODO: Fix preventing double requests error.
@@ -199,7 +199,14 @@ function showRedirectMsg (redirectToPortal = false) {
   if (redirectToPortal) {
     subject = PORTAL_SUBJECT;
   }
-  document.querySelector('.modal').innerHTML = `Redirecting to Stripe... <br /> <span class="description">If this page does not redirect within 10 seconds, please <a href="mailto:resellrabbit@gmail.com?subject=[${subject}]" class="pink">reach us directly</a>.</span>`;
+  document.querySelector('.modal').innerHTML = `Redirecting to Stripe... <br /> <span class="description">If this page does not redirect within <span id="timer">15</span> seconds, please <a href="mailto:resellrabbit@gmail.com?subject=[${subject}]" class="pink">reach us directly</a>.</span>`;
+  let count = 15;
+  const timer = setInterval(function() {
+    document.querySelector('#timer').innerHTML = count--;
+    if (count == 0) {
+      clearInterval(timer);
+    }
+  }, 1000);
 }
 
 function showSignUpPasswordVerification () {
