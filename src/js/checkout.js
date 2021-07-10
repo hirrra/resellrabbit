@@ -10,7 +10,8 @@ var firebaseConfig = {
   storageBucket: 'resellrabbit-3f22c.appspot.com',
   messagingSenderId: '1016089958318',
   appId: '1:1016089958318:web:827a4e1f29576278411a3f',
-  measurementId: 'G-TYY4T1GS7D'
+  measurementId: 'G-TYY4T1GS7D',
+  poratlLink: 'ext-firestore-stripe-subscriptions-createPortalLink'
 };
 
 var stripeVars = {
@@ -21,13 +22,14 @@ var stripeVars = {
 
 if (PROD) {
   firebaseConfig = {
-    apiKey: "AIzaSyB1wMM-bZG8VF53ZfbMEg0TsaVCDLf59wM",
-    authDomain: "resellrabbit-posh-prod.firebaseapp.com",
-    projectId: "resellrabbit-posh-prod",
-    storageBucket: "resellrabbit-posh-prod.appspot.com",
-    messagingSenderId: "417226503516",
-    appId: "1:417226503516:web:5896ce530c551bac38fd99",
-    measurementId: "G-B6TQESBQ88"
+    apiKey: 'AIzaSyB1wMM-bZG8VF53ZfbMEg0TsaVCDLf59wM',
+    authDomain: 'resellrabbit-posh-prod.firebaseapp.com',
+    projectId: 'resellrabbit-posh-prod',
+    storageBucket: 'resellrabbit-posh-prod.appspot.com',
+    messagingSenderId: '417226503516',
+    appId: '1:417226503516:web:5896ce530c551bac38fd99',
+    measurementId: 'G-B6TQESBQ88',
+    portalLink: 'ext-firestore-stripe-subscriptions-nd50-createPortalLink'
   };
 
   stripeVars = {
@@ -189,7 +191,7 @@ async function redirectToCustomerPortal () {
   const functionRef = firebase
     .app()
     .functions('us-east4')
-    .httpsCallable('ext-firestore-stripe-subscriptions-nd50-createPortalLink');
+    .httpsCallable(firebaseConfig.portalLink);
   const { data } = await functionRef({ returnUrl: window.location.origin });
   window.location.assign(data.url);
 }
