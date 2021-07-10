@@ -11,7 +11,7 @@ var firebaseConfig = {
   messagingSenderId: '1016089958318',
   appId: '1:1016089958318:web:827a4e1f29576278411a3f',
   measurementId: 'G-TYY4T1GS7D',
-  poratlLink: 'ext-firestore-stripe-subscriptions-createPortalLink'
+  portalLink: 'ext-firestore-stripe-subscriptions-createPortalLink'
 };
 
 var stripeVars = {
