@@ -11,7 +11,7 @@ var firebaseConfig = {
   messagingSenderId: '1016089958318',
   appId: '1:1016089958318:web:827a4e1f29576278411a3f',
   measurementId: 'G-TYY4T1GS7D',
-  portalLink: 'ext-firestore-stripe-subscriptions-createPortalLink'
+  portalLink: 'ext-firestore-stripe-subscriptions-nd50-createPortalLink'
 };
 
 var stripeVars = {
@@ -29,7 +29,7 @@ if (PROD) {
     messagingSenderId: '417226503516',
     appId: '1:417226503516:web:5896ce530c551bac38fd99',
     measurementId: 'G-B6TQESBQ88',
-    portalLink: 'ext-firestore-stripe-subscriptions-nd50-createPortalLink'
+    portalLink: 'ext-firestore-stripe-subscriptions-createPortalLink'
   };
 
   stripeVars = {
