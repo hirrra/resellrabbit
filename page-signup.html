@@ -44,11 +44,20 @@ permalink: /signup
           <input class="input" type="password" name="passwordver" placeholder="Re-enter your password">
         </div>
         <div class="control">
-          <a type="submit" class="button button-primary button-block button-shadow" onclick="createUserWithEmailAndPassword();this.disabled=true;">Sign up
+          <a type="submit" class="button button-primary button-block button-shadow" onclick="createUserWithEmailAndPassword();maybeTrackReferral();this.disabled=true;">Sign up
           </a>
         </div>
       </form>
-      <p class="text-center description gray"><a >Referral</a><a href="/login" class="gray">Already have an account?</a></p>
+
+      <div class="hidden">
+        <form class="gform"  name="referralsTracker" id="referrals-tracker-form" action="https://script.google.com/macros/s/AKfycbwoSLg2MViZtA04gL0Wbca51gh70UUc9CjUpQ_ClDJywTskgdbuNhBWeKTiJDoxexoJfA/exec">
+          <input class="input" type="email" name="email" placeholder="Email">
+          <input class="input" type="text" name="via" id="via-input">
+          <input class="honeypot" type="text" name="honeypot" value="" />
+        </form>
+      </div>
+
+      <p class="text-center description gray"><a href="/login" class="gray">Already have an account?</a></p>
     </div>
   </div>
 </section>

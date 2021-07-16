@@ -1,43 +1,5 @@
 (function() {
-  const REFFERAL_PARAM = 'ref';
-  const TTL = 86400000;
 
-  var submitButton = null;
-  var buttonContent = null;
-
-  checkForReferral();
-
-  function checkForReferral() {
-    const urlParams = new URLSearchParams(window.location.search);
-    const referrer = urlParams.get(REFFERAL_PARAM);
-    if (referrer && referrer != '') {
-      const item = {
-        value: referrer,
-        expiry: (new Date()).getTime() + TTL,
-      }
-      localStorage.setItem(REFFERAL_PARAM, JSON.stringify(item));
-      showReferralMessage();
-    } else if (hasSavedReferral()) {
-      showReferralMessage();
-    }
-  }
-  
-  function hasSavedReferral() {
-    const referrerItem = JSON.parse(localStorage.getItem(REFFERAL_PARAM));
-    if ((new Date()).getTime() > referrerItem.expiry) {
-      // If the item is expired, delete the item from storage
-      // and return null
-      localStorage.removeItem(REFERRAL_PARAM);
-      return false;
-    }
-    return true;
-  }
-
-  function showReferralMessage() {
-    const referralMessage = document.getElementById('referral-message');
-    referralMessage.style.display = "block";
-  }
-  
   // form successfully submitted
   function handleButtonSuccess() {
     submitButton.textContent = "Success!"
@@ -51,6 +13,9 @@
 
   function showThankyou(form) {
     var thankyou = form.querySelector(".thankyou");
+    if (!thankyou) {
+      return;
+    }
     thankyou.style.display = "block";
     setTimeout(() => {
       thankyou.style.display = "block";

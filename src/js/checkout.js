@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable no-undef */
 /* eslint-disable semi */
+
 const PROD = true;
 
 var firebaseConfig = {
@@ -39,16 +40,68 @@ if (PROD) {
   }
 } 
 
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+firebase.analytics();
+
 const CANCEL_URL = window.location.origin;
 const SUCCESS_URL = window.location.origin + '/welcome';
 
 const SUBSCRIPTION_SUBJECT = 'New Subscription - (CHOOSE ONE: Monthly / Yearly)';
 const PORTAL_SUBJECT = 'Access to Stripe portal';
 
+const REFFERAL_PARAM = 'via';
+const TTL = 86400000;
 
-// Initialize Firebase
-firebase.initializeApp(firebaseConfig);
-firebase.analytics();
+updateUiForReferral();
+
+function updateUiForReferral() {
+  const urlParams = new URLSearchParams(window.location.search);
+  const referrer = urlParams.get(REFFERAL_PARAM);
+  if (referrer && referrer != '') {
+    const item = {
+      value: referrer,
+      expiry: (new Date()).getTime() + TTL,
+    }
+    localStorage.setItem(REFFERAL_PARAM, JSON.stringify(item));
+    showReferralMessage();
+  } else if (hasSavedReferral()) {
+    showReferralMessage();
+  }
+}
+
+function hasSavedReferral() {
+  return getSavedReferral() != null;
+}
+
+function getSavedReferral() {
+  const referrerItem = JSON.parse(localStorage.getItem(REFFERAL_PARAM));
+  if ((new Date()).getTime() > referrerItem.expiry) {
+    // If the item is expired, delete the item from storage
+    // and return null
+    localStorage.removeItem(REFERRAL_PARAM);
+    return null;
+  }
+  return referrerItem.value;
+}
+
+function maybeTrackReferral() {
+  if (!hasSavedReferral()) {
+    return;
+  }
+  const referralCode = getSavedReferral();
+  const viaInput = document.getElementById('via-input');
+  viaInput.value = referralCode;
+  const signupForm = document.getElementsByName('signup-form')[0];
+  document.referralsTracker.elements.email.value = signupForm.elements.email.value;
+  var evt = new CustomEvent('submit');
+  document.referralsTracker.dispatchEvent(evt);
+}
+
+function showReferralMessage() {
+  const referralMessage = document.getElementById('referral-message');
+  referralMessage.style.display = "block";
+}
 
 function createUserWithEmailAndPassword () {
   const form = document.getElementsByName('signup-form')[0];
@@ -105,7 +158,7 @@ function loginWithEmailAndPassword () {
       const createdUser = userCredential.user;
       this.showRedirectMsg(/* redirectToPortal */ true);
       console.log()
-      // this.redirectToCustomerPortal();
+      this.redirectToCustomerPortal();
     })
     .catch((error) => {
       const errorMessage = error.message;
@@ -231,3 +284,4 @@ function showSignUpPasswordVerification () {
     passwordVerify.style.display = 'block';
   }
 }
+
