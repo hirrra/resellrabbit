@@ -20,7 +20,7 @@ Welcome! This is everything you need to know before you start.
 ## Things to keep in mind
 
 #### Share ban
-Sharing excessively can lead to temporary share ban, **please be cautious**. You can set a custom daily share limit in the settings as a preventative measure. We suggest sharing up to an average of 300 listings per hour.
+Sharing excessively can lead to temporary share ban, **please be cautious**. You can set a custom daily share limit in the settings as a preventative measure. 
 
 #### Make sure ResellRabbit can do its tasks
 ResellRabbit will only work when there's a tab open on your closet page. We recommend leaving your Poshmark closet tab open on its own window in the background, and enabling _Keep computer awake_ mode if you plan to step away.

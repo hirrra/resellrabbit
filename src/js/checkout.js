@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable no-undef */
 /* eslint-disable semi */
-const PROD = true;
+const PROD = false;
 
 var firebaseConfig = {
   apiKey: 'AIzaSyCHsvdC8MBpRQeKQq1rHidvoYBdE-WLCPg',
@@ -52,10 +52,18 @@ firebase.analytics();
 
 function createUserWithEmailAndPassword () {
   const form = document.getElementsByName('signup-form')[0];
-  const email = form.elements.email.value;
+  let name = form.elements.name.value.trim();
+  const email = form.elements.email.value.trim();
   const password = form.elements.password.value;
   const passwordver = form.elements.passwordver.value;
 
+  // Verify name input has text.
+  if (name === '') {
+    alert('Name must be filled out.');
+    return;
+  }
+
+  // Validate email address.
   if (email.indexOf('+') > -1 && PROD) {
     alert('Please enter a valid email address.');
     return;
@@ -67,10 +75,14 @@ function createUserWithEmailAndPassword () {
     return;
   }
 
+  // Capitalize first charachter.
+  name = name.charAt(0).toUpperCase() + name.slice(1);
+
   firebase.auth().createUserWithEmailAndPassword(email, password)
     .then((userCredential) => {
       // Signed in.
       const createdUser = userCredential.user;
+      createdUser.updateProfile({ displayName: name });
       this.showRedirectMsg();
       this.initStripe(createdUser);
     })
@@ -92,7 +104,8 @@ function loginWithEmailAndPassword () {
       // Signed in
       const createdUser = userCredential.user;
       this.showRedirectMsg(/* redirectToPortal */ true);
-      this.redirectToCustomerPortal();
+      console.log()
+      // this.redirectToCustomerPortal();
     })
     .catch((error) => {
       const errorMessage = error.message;

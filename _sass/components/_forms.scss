@@ -63,7 +63,7 @@
 }
 
 .control {
-    margin-bottom: 20px;
+    margin-bottom: 16px;
 }
 
 .textarea {
@@ -152,7 +152,7 @@
     color: color(typography, 2);
 }
 
-.honeypot-field, .secret-field {
+.honeypot-field, .hidden {
     display: none;
 }
 
