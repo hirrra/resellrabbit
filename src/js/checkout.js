@@ -53,7 +53,9 @@ const PORTAL_SUBJECT = 'Access to Stripe portal';
 const REFFERAL_PARAM = 'via';
 const TTL = 86400000;
 
-updateUiForReferral();
+if ( document.URL.includes('signup') ) {
+  updateUiForReferral();
+}
 
 function updateUiForReferral() {
   const urlParams = new URLSearchParams(window.location.search);
@@ -156,8 +158,9 @@ function loginWithEmailAndPassword () {
     .then((userCredential) => {
       // Signed in
       const createdUser = userCredential.user;
-      this.showRedirectMsg(/* redirectToPortal */ true);
-      this.redirectToCustomerPortal();
+      console.log(createdUser);
+      // this.showRedirectMsg(/* redirectToPortal */ true);
+      // this.redirectToCustomerPortal();
     })
     .catch((error) => {
       const errorMessage = error.message;
