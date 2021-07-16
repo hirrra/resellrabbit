@@ -159,8 +159,8 @@ function loginWithEmailAndPassword () {
       // Signed in
       const createdUser = userCredential.user;
       console.log(createdUser);
-      // this.showRedirectMsg(/* redirectToPortal */ true);
-      // this.redirectToCustomerPortal();
+      this.showRedirectMsg(/* redirectToPortal */ true);
+      this.redirectToCustomerPortal();
     })
     .catch((error) => {
       const errorMessage = error.message;
