@@ -1,6 +1,11 @@
 <form class="gform" name="referral-program-form" action="https://script.google.com/macros/s/AKfycbxlxF43VfC74ALRbyUPezoaqLCBVfjL5qxJPwQItGjGjfF8HqnHP4qDM6Y1hVBul1BY/exec">
   <div class="field field-grouped ">
-    <input class="input" type="email" name="email" placeholder="Fill in your email associated with your ResellRabbit account&hellip;">
+    <div class="control">
+        <input style="width: 290px;" class="input" type="email" name="email" placeholder="ResellRabbit email">
+    </div>
+    <div class="control">
+        <input style="width: 290px;" class="input" type="email" name="email" placeholder="Paypal email, for payouts">
+    </div>
     <div class="control">
         <button type="submit" class="button button-primary button-block button-shadow">
             <a class="" href="{{ '/pricing' | relative_url }}">Apply now</a>
@@ -9,7 +14,7 @@
   </div>
   <div class="checkbox-container">
       <div class="thankyou hidden">
-          <b>Got the application, thanks! 😊</b>
+          <b>Thanks!</b>
       </div>
   </div>
   <div class="hidden">
