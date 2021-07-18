@@ -14,6 +14,6 @@ We mean it--so we're creating a referral program that lets you win when we win.
 
 To get your referral link, fill out the form below.
 
-Once we're ready, we'll contact you with your link!
+Once we're ready, we'll send your personal link to you!
 
 {% include form-referral.html %}
