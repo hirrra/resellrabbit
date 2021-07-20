@@ -17,6 +17,11 @@
 
 .hero-illustration {
 
+    img {
+        box-shadow: rgba(48, 50, 61, 19%) 0px 0px 19px;
+        border-radius: 5px;
+    }
+
     svg {
         width: 100%;
         height: 400px;
@@ -60,19 +65,6 @@
 
 
 @include media( '>medium' ) {
-
-    .hero {
-        padding-bottom: 60px;
-    }
-
-    .hero-main {
-        max-width: 450px;
-    }
-
-    .hero-illustration {
-        margin-top: 100px;
-        padding: 20px 0 20px 60px;
-    }
 
     .hero-illustration-browser {
 

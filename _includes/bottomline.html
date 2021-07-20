@@ -13,3 +13,22 @@
       </div>
   </div>
 </section>
+<!-- 
+<section>
+  <div class="container-sm mt-56 posts-related has-top-divider mb-64">
+    <h2 class="text-center postbox-group-header mt-24">Some of our reselling guides</h2>
+    <div class="postbox-group flex-container">
+      
+      {% assign posts = site.posts | where_exp:"post", "post.url != page.url" | sample:2 %}
+      {% for post in posts %}
+        {% include postbox.html %}
+      {% endfor %}
+      
+    </div>
+    <div class="text-center mt-24 browse-all-guides">
+      <a class="button button-shadow button-secondary" href="{{ '/guides' | relative_url }}">
+        See more
+      </a>
+    </div>
+  </div>
+</section> -->
