@@ -35,8 +35,10 @@ if (PROD) {
 
   stripeVars = {
     publishableKey: 'pk_live_51IThrWBkbf8GXgrmKbtp37vhMqyLJuxspH2EHZXUocoFJKBoGdjFBsgqEoq06It3RyCDuK23VgB9tGkPqY3zpLym001mTvipCn',
-    priceIdMonthly: 'price_1JAN7FBkbf8GXgrmm49CFNSq',
-    priceIdYearly: 'price_1JAN7GBkbf8GXgrmM4l0ctII'
+    // priceIdMonthly: 'price_1JAN7FBkbf8GXgrmm49CFNSq',
+    priceIdMonthly: 'price_1JXgE4Bkbf8GXgrmNXXXMM1X',
+    // priceIdYearly: 'price_1JAN7GBkbf8GXgrmM4l0ctII'
+    priceIdYearly: 'price_1JXgE4Bkbf8GXgrmjupy1eRE'
   }
 } 
 
