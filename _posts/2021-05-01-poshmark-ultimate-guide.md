@@ -4,7 +4,7 @@ title:  Poshmark Ultimate Guide to Reselling (2021)
 description: How to succeed at selling on Poshmark
 image: src/img/2.jpg
 duration: 4
-last_modified_at: 2021-06-29
+last_modified_at: 2021-08-29
 ---
 
 Poshmark is a great platform to start on if you're looking to clean out your closet, or just to make money on the side and perhaps even sell full-time. If you're looking for how to make money on Poshmark, you're at the right spot!

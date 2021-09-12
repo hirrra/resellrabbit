@@ -4,7 +4,7 @@ title:  "Should you Hire a Poshmark Virtual Assistant?"
 description: Everything you need to know before hiring a virtual assistant for Poshmark
 image: src/img/1.jpg
 duration: 5
-last_modified_at: 2021-07-01
+last_modified_at: 2021-08-01
 ---
 
 Are you thinking of hiring a virtual assistant for your Poshmark business? We'll talk about everything you should consider before you do.

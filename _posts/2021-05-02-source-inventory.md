@@ -4,7 +4,7 @@ title:  How to Source Inventory for Poshmark
 description: How to efficiently select clothing that will sell fast on Poshmark
 image: src/img/1.jpg
 duration: 10
-last_modified_at: 2021-06-28
+last_modified_at: 2021-08-28
 ---
 
 If you're serious about reselling, you have to learn how to pick the right clothing to sell. Items that are in higher demand will sell faster, which means you'll get your chunk of change faster, and then reinvest that back into your business faster (💰💰💰).

@@ -4,7 +4,7 @@ title:  "Poshmark Bots: Everything You Need to Know About Bots"
 description: All about the upsides and downsides of using a bot
 image: src/img/1.jpg
 duration: 4
-last_modified_at: 2021-06-28
+last_modified_at: 2021-08-28
 ---
 
 You may have heard about Poshmark bots but aren't sure if you should try using one. Here's everything you need to know about it--the upsides and the downsides.
