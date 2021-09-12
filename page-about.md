@@ -4,15 +4,16 @@ title: About
 permalink: /about
 ---
 
+# About
+{: class="text-center"}
+
 ## 🐰 Our Story
 
-**Written from ResellRabbit Founder:**
-
-My sister sells part-time on places like Mercari and OfferUp, and recently started selling on Poshmark. One day during a family gathering, I saw her taking out her phone to tap at the screen for several minutes straight. When I asked her what she was doing, she mentioned that she had to "boost" her listings by sharing. "I don't know why Poshmark makes this so tedious, on OfferUp I can just pay to promote my listings," she told me. There had to be a better solution. 
+My sister sells part-time on places like Mercari and OfferUp, and recently started selling on Poshmark. One day when I was visiting her, I saw her taking out her phone to tap at the screen for several minutes straight. When I asked her what she was doing, she mentioned that she had to "boost" her listings by sharing. "I don't know why Poshmark makes this so tedious, on OfferUp I can just pay to promote my listings," she told me. There had to be a better solution. 
 
 I created ResellRabbit to make life easier for sellers like my sister. She's a mom of two toddlers and time gifted back to her is priceless, especially when she has so many other responsibilities. As my vision for ResellRabbit continuously grows, I hope ResellRabbit can give indispensable value to you too. 
 
--- Anita 👩‍💻 
+-- Anita 👩‍💻, Founder of ResellRabbit 
 
 ## 💪 Our Mission
 <!-- {: class="text-center"} -->
